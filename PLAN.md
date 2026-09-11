@@ -19,8 +19,8 @@
 - [ ] Проверить формулировки: достижения с цифрами, коротко
 
 ## Этап 2 — публикация
-- [ ] Создать репозиторий на GitHub (`<username>.github.io` или любое имя)
-- [ ] Включить GitHub Pages (Settings → Pages → Deploy from branch → `main` / root)
+- [x] Репозиторий https://github.com/paranoikmen/cv
+- [x] GitHub Pages из `main` / root → https://paranoikmen.github.io/cv/ (обновляется сам после каждого `git push`)
 - [ ] (опц.) Свой домен: файл `CNAME` + DNS-записи
 
 ## Этап 3 — улучшения (по желанию)

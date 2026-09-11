@@ -33,7 +33,7 @@
     "name": "Ivan Bogomolov",
     "title": "Frontend Engineer · React Native / React",
     "location": "Da Nang, Vietnam · open to remote, hybrid and relocation",
-    "summary": "Frontend engineer with 5+ years of experience building mobile and web apps with React Native, React and TypeScript. I have shipped insurance apps with 50k+ users to the App Store, Google Play, AppGallery and RuStore, migrated a legacy React Native 0.64 codebase to 0.77 with the New Architecture, and written native modules for payments. Now building IoT products.",
+    "summary": "Frontend engineer with 5+ years of shipping mobile and web products on React Native, React and TypeScript. I maintain insurance apps with 50k+ users released to 4 app stores, took them 13 React Native versions forward to 0.77 and the New Architecture, and built native payment modules. On my current contract I built two IoT apps from an empty repository to ~70 screens in 6 months.",
     "contacts": [
       { "type": "email", "label": "bogomolov222@gmail.com", "url": "mailto:bogomolov222@gmail.com" },
       { "type": "telegram", "label": "@paranoikmen", "url": "https://t.me/paranoikmen" },
@@ -42,37 +42,38 @@
   },
   "experience": [
     {
-      "company": "IoT projects (contract)",
+      "company": "AJProTech (contract)",
+      "url": "https://ajprotech.com/",
       "role": "React Native Developer",
       "start": "2026-03",
       "end": null,
-      "summary": "Two mobile apps for connected devices, built from scratch: a companion app for smart cameras and a Bluetooth tracker app for sports gear.",
+      "summary": "Two mobile apps for connected devices, built from scratch as the main developer: a companion app for smart cameras and a Bluetooth tracker app for sports gear.",
       "highlights": [
-        "Built both apps from the first commit on bare React Native (0.84+, New Architecture) and TypeScript.",
-        "Device onboarding over Bluetooth LE and Wi-Fi; live video and real-time device events via Server-Sent Events.",
-        "Geolocation, maps and background tracking of BLE tags.",
-        "Push notifications (Firebase Cloud Messaging), Sign in with Apple / Google and one-time-code login.",
-        "Feature-Sliced Design architecture; UI kit on Tamagui built from Figma mockups and documented in Storybook; state in Zustand + MMKV.",
-        "AI-assisted development with Claude Code."
+        "Took both apps from an empty repository to ~70 screens in 6 months (250+ commits) on bare React Native 0.84+ with the New Architecture and TypeScript.",
+        "Designed a Feature-Sliced architecture and a Tamagui UI kit (~40 components, built from Figma mockups); the second app was built on the same foundation.",
+        "Device onboarding over Bluetooth LE and Wi-Fi: defined the BLE message format with the firmware team and wrote the integration guide for them.",
+        "Live video and real-time device events over Server-Sent Events; push notifications via Firebase Cloud Messaging.",
+        "Background tracking of BLE tags with geolocation, maps and left-behind alerts.",
+        "Sign in with Apple / Google and one-time-code login; state in Zustand + MMKV; AI-assisted workflow with Claude Code."
       ],
       "stack": ["React Native", "TypeScript", "Bluetooth LE", "SSE", "Zustand", "MMKV", "Tamagui", "Feature-Sliced Design", "Firebase", "Storybook", "Claude Code"]
     },
     {
-      "company": "Generali PPF",
-      "url": "https://www.generalippf.ru",
+      "company": "General PPF",
+      "url": "https://ppfinsurance.ru/",
       "role": "React Native / React Developer",
       "location": "Moscow",
       "start": "2022-10",
       "end": null,
-      "summary": "Insurance group. Two mobile apps — for clients and for insurance agents (50k+ users) — plus an internal CRM.",
+      "summary": "Insurance group. Two mobile apps — for policyholders and for insurance agents, 50k+ users — plus an internal CRM.",
       "highlights": [
-        "Upgraded both apps from React Native 0.64 to 0.77 and enabled the New Architecture.",
-        "Built SBP (Faster Payments System) payments through a custom native module for Android and iOS.",
-        "Implemented real-time chat over WebSocket, push notifications and biometric login (Face ID / Touch ID).",
-        "Built in-app updates without third-party libraries.",
-        "Released apps to the App Store / TestFlight, Google Play, AppGallery and RuStore; monitored crashes with Sentry.",
-        "Moved legacy code to Redux Toolkit + RTK Query + TypeScript and Feature-Sliced Design.",
-        "React: internal CRM, product metrics, user analytics and hypothesis testing."
+        "Moved both apps 13 React Native versions forward, from 0.64 to 0.77, and switched them to the New Architecture (Fabric, TurboModules) — unblocking current libraries and OS versions.",
+        "Launched SBP (Faster Payments System) payments through a custom native module for Android and iOS — a new in-app payment channel.",
+        "Built an in-app update flow without third-party libraries, so users move to new versions without leaving the app.",
+        "Shipped real-time chat over WebSocket, push notifications and biometric login (Face ID / Touch ID).",
+        "Released to 4 stores — App Store, Google Play, AppGallery and RuStore; tracked and fixed production crashes with Sentry.",
+        "Rewrote legacy modules on Redux Toolkit + RTK Query + TypeScript with Feature-Sliced Design.",
+        "React: internal CRM, product metrics and user analytics used to validate product hypotheses."
       ],
       "stack": ["React Native", "TypeScript", "Redux Toolkit", "RTK Query", "Zustand", "Styled Components", "Feature-Sliced Design", "WebSocket", "Sentry", "React"]
     },
@@ -85,38 +86,39 @@
       "end": "2025-02",
       "summary": "Enterprise product for the bank's internal users.",
       "highlights": [
-        "Designed the app architecture on React + Redux Toolkit + TypeScript.",
-        "Worked with the GraphQL API through Apollo Client.",
-        "Improved performance and cross-browser compatibility."
+        "Developed features on a React + Redux Toolkit + TypeScript architecture.",
+        "Integrated the GraphQL API through Apollo Client.",
+        "Optimized rendering performance and fixed cross-browser issues."
       ],
       "stack": ["React", "TypeScript", "Redux Toolkit", "GraphQL", "Apollo"]
     },
     {
       "company": "Lingualeo",
-      "url": "https://lingualeo.com",
+      "url": "https://lingualeo.com/en",
       "role": "Frontend Developer",
       "start": "2022-07",
       "end": "2022-09",
-      "summary": "Language learning platform.",
+      "summary": "Language learning service with millions of users.",
       "highlights": [
-        "Rebuilt the website's main page pixel-perfect to the new design.",
-        "Created a UI kit for the new design system as a separate npm package (Ant Design + TypeScript).",
-        "Supported the in-site learning games; took part in cross code review and designing the new app architecture."
+        "Rebuilt the main page — the entry point of the website — pixel-perfect to the new design.",
+        "Created the UI kit of the new design system as a standalone npm package (Ant Design + TypeScript).",
+        "Helped design the new app architecture (Next.js + MobX), did cross code review and supported the in-site learning games."
       ],
       "stack": ["React", "Next.js", "TypeScript", "MobX", "Ant Design"]
     },
     {
       "company": "I-Tech Labs",
+      "url": "https://itl.team/",
       "role": "Frontend Developer",
       "location": "Volgograd",
       "start": "2021-07",
       "end": "2022-06",
-      "summary": "Outsourcing and outstaffing: React and React Native apps for clients, from new features to full support.",
+      "summary": "Outsourcing and outstaffing: worked on 8 client projects in a year — 3 React Native apps and 5 web apps.",
       "highlights": [
-        "Analytics app (React Native): SVG charts (pie, bar, line, Gantt) and maps (Mapbox, OpenStreetMap); sped it up with memoization and a move from class components to hooks.",
-        "Mafia-style multiplayer game built from scratch: architecture, drag-and-drop animations, MVP on REST later moved to WebSockets.",
-        "Hotel guest app (React Native, Redux): new screens and bug fixes.",
-        "Web: education platform (introduced Redux), API testing tool similar to Postman, hotel CRM, document management and aircraft insurance sites."
+        "Built a Mafia-style multiplayer game end to end: architecture, drag-and-drop animations, MVP on REST, then moved to WebSockets for real-time play.",
+        "Analytics app (React Native): SVG charts (pie, bar, line, Gantt) and maps (Mapbox, OpenStreetMap); made it faster with memoization and a move from class components to hooks.",
+        "Introduced Redux into an education platform and refactored it; added TypeScript typing to a document management system.",
+        "Also: hotel guest app (React Native), API testing tool similar to Postman, hotel CRM and an aircraft insurance website."
       ],
       "stack": ["React Native", "React", "TypeScript", "Redux", "Redux Saga", "Redux Toolkit", "Mapbox"]
     }
