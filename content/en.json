@@ -31,6 +31,7 @@
   },
   "profile": {
     "name": "Ivan Bogomolov",
+    "photo": "assets/img/avatar.jpg",
     "title": "Frontend Engineer · React Native / React",
     "location": "Da Nang, Vietnam · open to remote, hybrid and relocation",
     "summary": "Frontend engineer with 5+ years of shipping mobile and web products on React Native, React and TypeScript. I maintain insurance apps with 50k+ users released to 4 app stores, took them 13 React Native versions forward to 0.77 and the New Architecture — cold start 30–35% faster, FPS up from 45 to 57+, crash-free sessions above 99.95% — and built native payment modules. On my current contract I built two IoT apps from an empty repository to ~70 screens in 6 months.",
