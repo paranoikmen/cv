@@ -42,12 +42,20 @@
   },
   "experience": [
     {
-      "company": "IoT company (name TBD)",
+      "company": "IoT projects (contract)",
       "role": "React Native Developer",
       "start": "2026-03",
       "end": null,
-      "summary": "Building mobile apps for IoT products.",
-      "stack": ["React Native", "TypeScript", "Zustand", "SSE", "IoT", "UI kit", "Claude"]
+      "summary": "Two mobile apps for connected devices, built from scratch: a companion app for smart cameras and a Bluetooth tracker app for sports gear.",
+      "highlights": [
+        "Built both apps from the first commit on bare React Native (0.84+, New Architecture) and TypeScript.",
+        "Device onboarding over Bluetooth LE and Wi-Fi; live video and real-time device events via Server-Sent Events.",
+        "Geolocation, maps and background tracking of BLE tags.",
+        "Push notifications (Firebase Cloud Messaging), Sign in with Apple / Google and one-time-code login.",
+        "Feature-Sliced Design architecture; UI kit on Tamagui built from Figma mockups and documented in Storybook; state in Zustand + MMKV.",
+        "AI-assisted development with Claude Code."
+      ],
+      "stack": ["React Native", "TypeScript", "Bluetooth LE", "SSE", "Zustand", "MMKV", "Tamagui", "Feature-Sliced Design", "Firebase", "Storybook", "Claude Code"]
     },
     {
       "company": "Generali PPF",
@@ -115,11 +123,11 @@
   ],
   "skills": [
     { "group": "Languages", "items": ["TypeScript", "JavaScript", "HTML", "CSS"] },
-    { "group": "Mobile", "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "Native modules (iOS / Android)", "Expo", "Reanimated", "Gesture Handler", "Lottie", "Store releases"] },
+    { "group": "Mobile", "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "Native modules (iOS / Android)", "Bluetooth LE", "Expo", "Reanimated", "Gesture Handler", "Lottie", "Store releases"] },
     { "group": "Web", "items": ["React", "Next.js", "Framer Motion", "React Spring", "TanStack Table", "React Virtualized"] },
     { "group": "State & data", "items": ["Redux Toolkit", "RTK Query", "MobX", "Zustand", "React Query / SWR", "REST", "GraphQL (Apollo, urql)", "WebSocket / Socket.IO", "SSE"] },
-    { "group": "UI & forms", "items": ["Styled Components", "Tailwind CSS", "Ant Design", "NativeBase", "Storybook", "React Hook Form", "Formik", "Yup / Zod"] },
-    { "group": "Architecture & tools", "items": ["Feature-Sliced Design", "Clean Architecture", "ESLint / Prettier", "Husky / lint-staged", "i18next", "Sentry", "Firebase Analytics", "Git", "Claude"] },
+    { "group": "UI & forms", "items": ["Styled Components", "Tailwind CSS", "Ant Design", "NativeBase", "Tamagui", "Storybook", "React Hook Form", "Formik", "Yup / Zod"] },
+    { "group": "Architecture & tools", "items": ["Feature-Sliced Design", "Clean Architecture", "ESLint / Prettier", "Husky / lint-staged", "i18next", "Sentry", "Firebase Analytics", "Git", "Claude Code"] },
     { "group": "Also worked with", "items": ["Node.js / Express", "Kotlin", "Swift", "Java", "C++", "C#", "Python", "MySQL / NoSQL"] }
   ],
   "projects": [],

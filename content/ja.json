@@ -36,8 +36,17 @@
   },
   "experience": [
     {
+      "company": "IoT プロジェクト（業務委託）",
       "role": "React Native エンジニア",
-      "summary": "IoT 製品向けモバイルアプリの開発。"
+      "summary": "コネクテッドデバイス向けのモバイルアプリ 2 本をゼロから開発：スマートカメラ用のコンパニオンアプリと、Bluetooth タグでスポーツ用品を追跡するアプリ。",
+      "highlights": [
+        "最初のコミットから、素の React Native（0.84+、New Architecture）と TypeScript で両アプリを開発。",
+        "Bluetooth LE と Wi-Fi によるデバイスのセットアップ、Server-Sent Events によるライブ映像とリアルタイムのデバイスイベント。",
+        "位置情報、地図、BLE タグのバックグラウンド追跡。",
+        "プッシュ通知（Firebase Cloud Messaging）、Apple / Google サインインとワンタイムコードによるログイン。",
+        "Feature-Sliced Design アーキテクチャ。Figma のデザインをもとに Tamagui で UI キットを構築し Storybook でドキュメント化。状態管理は Zustand + MMKV。",
+        "Claude Code を活用した AI 支援開発。"
+      ]
     },
     {
       "role": "React Native / React エンジニア",
@@ -90,7 +99,7 @@
     { "group": "言語" },
     {
       "group": "モバイル",
-      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "ネイティブモジュール（iOS / Android）", "Expo", "Reanimated", "Gesture Handler", "Lottie", "ストアへのリリース"]
+      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "ネイティブモジュール（iOS / Android）", "Bluetooth LE", "Expo", "Reanimated", "Gesture Handler", "Lottie", "ストアへのリリース"]
     },
     { "group": "Web" },
     { "group": "状態管理・データ" },

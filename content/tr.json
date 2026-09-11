@@ -36,8 +36,17 @@
   },
   "experience": [
     {
+      "company": "IoT projeleri (sözleşmeli)",
       "role": "React Native Geliştirici",
-      "summary": "IoT ürünleri için mobil uygulamalar geliştiriyorum."
+      "summary": "Bağlantılı cihazlar için sıfırdan geliştirilen iki mobil uygulama: akıllı kameralar için bir yardımcı uygulama ve Bluetooth etiketli spor ekipmanı takip uygulaması.",
+      "highlights": [
+        "İki uygulamayı da ilk commit’ten itibaren bare React Native (0.84+, New Architecture) ve TypeScript ile geliştirdim.",
+        "Bluetooth LE ve Wi-Fi ile cihaz kurulumu; Server-Sent Events ile canlı video ve gerçek zamanlı cihaz olayları.",
+        "Konum belirleme, haritalar ve BLE etiketlerinin arka planda takibi.",
+        "Push bildirimleri (Firebase Cloud Messaging), Apple / Google ile ve tek kullanımlık kodla giriş.",
+        "Feature-Sliced Design mimarisi; Figma tasarımlarından Tamagui üzerinde UI kit, Storybook ile belgelenmiş; durum yönetimi Zustand + MMKV.",
+        "Claude Code ile yapay zekâ destekli geliştirme."
+      ]
     },
     {
       "role": "React Native / React Geliştirici",
@@ -90,7 +99,7 @@
     { "group": "Programlama dilleri" },
     {
       "group": "Mobil",
-      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "Native modüller (iOS / Android)", "Expo", "Reanimated", "Gesture Handler", "Lottie", "Mağazalarda yayınlama"]
+      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "Native modüller (iOS / Android)", "Bluetooth LE", "Expo", "Reanimated", "Gesture Handler", "Lottie", "Mağazalarda yayınlama"]
     },
     { "group": "Web" },
     { "group": "State ve veri" },

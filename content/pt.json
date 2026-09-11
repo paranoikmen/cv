@@ -36,8 +36,17 @@
   },
   "experience": [
     {
+      "company": "Projetos IoT (por contrato)",
       "role": "Desenvolvedor React Native",
-      "summary": "Desenvolvimento de apps mobile para produtos IoT."
+      "summary": "Dois apps móveis para dispositivos conectados, criados do zero: um app para câmeras inteligentes e um app de rastreamento de equipamentos esportivos com tags Bluetooth.",
+      "highlights": [
+        "Desenvolvi os dois apps desde o primeiro commit com React Native puro (0.84+, New Architecture) e TypeScript.",
+        "Configuração de dispositivos via Bluetooth LE e Wi-Fi; vídeo ao vivo e eventos em tempo real via Server-Sent Events.",
+        "Geolocalização, mapas e rastreamento em segundo plano de tags BLE.",
+        "Notificações push (Firebase Cloud Messaging), login com Apple / Google e por código único.",
+        "Arquitetura Feature-Sliced Design; UI kit em Tamagui a partir de layouts do Figma, documentado no Storybook; estado com Zustand + MMKV.",
+        "Desenvolvimento assistido por IA com Claude Code."
+      ]
     },
     {
       "role": "Desenvolvedor React Native / React",
@@ -90,7 +99,7 @@
     { "group": "Linguagens" },
     {
       "group": "Mobile",
-      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "Módulos nativos (iOS / Android)", "Expo", "Reanimated", "Gesture Handler", "Lottie", "Publicação nas lojas"]
+      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "Módulos nativos (iOS / Android)", "Bluetooth LE", "Expo", "Reanimated", "Gesture Handler", "Lottie", "Publicação nas lojas"]
     },
     { "group": "Web" },
     { "group": "Estado e dados" },

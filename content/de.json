@@ -36,8 +36,17 @@
   },
   "experience": [
     {
+      "company": "IoT-Projekte (auf Vertragsbasis)",
       "role": "React Native Developer",
-      "summary": "Entwicklung mobiler Apps für IoT-Produkte."
+      "summary": "Zwei mobile Apps für vernetzte Geräte, von Grund auf entwickelt: eine Companion-App für smarte Kameras und eine Bluetooth-Tracker-App für Sportausrüstung.",
+      "highlights": [
+        "Beide Apps ab dem ersten Commit mit Bare React Native (0.84+, New Architecture) und TypeScript entwickelt.",
+        "Geräte-Onboarding über Bluetooth LE und WLAN; Live-Video und Geräteereignisse in Echtzeit über Server-Sent Events.",
+        "Geolokalisierung, Karten und Hintergrund-Tracking von BLE-Tags.",
+        "Push-Benachrichtigungen (Firebase Cloud Messaging), Anmeldung mit Apple / Google und per Einmalcode.",
+        "Architektur nach Feature-Sliced Design; UI-Kit auf Tamagui nach Figma-Entwürfen, dokumentiert in Storybook; State mit Zustand + MMKV.",
+        "KI-gestützte Entwicklung mit Claude Code."
+      ]
     },
     {
       "role": "React Native / React Developer",
@@ -90,7 +99,7 @@
     { "group": "Sprachen" },
     {
       "group": "Mobile",
-      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "Native Module (iOS / Android)", "Expo", "Reanimated", "Gesture Handler", "Lottie", "Store-Veröffentlichungen"]
+      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "Native Module (iOS / Android)", "Bluetooth LE", "Expo", "Reanimated", "Gesture Handler", "Lottie", "Store-Veröffentlichungen"]
     },
     { "group": "Web" },
     { "group": "State & Daten" },

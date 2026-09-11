@@ -36,8 +36,17 @@
   },
   "experience": [
     {
-      "role": "React Native 开发工程师",
-      "summary": "为 IoT 产品开发移动应用。"
+      "company": "物联网项目（合同制）",
+      "role": "React Native 工程师",
+      "summary": "从零开发两款面向智能设备的移动应用：智能摄像头配套应用，以及基于蓝牙标签的运动装备追踪应用。",
+      "highlights": [
+        "从第一次提交起使用原生 React Native（0.84+，新架构）和 TypeScript 开发两款应用。",
+        "通过 Bluetooth LE 和 Wi-Fi 进行设备配网；通过 Server-Sent Events 实现实时视频和设备事件推送。",
+        "地理定位、地图以及 BLE 标签的后台追踪。",
+        "推送通知（Firebase Cloud Messaging）、Apple / Google 登录及一次性验证码登录。",
+        "采用 Feature-Sliced Design 架构；基于 Figma 设计稿用 Tamagui 构建 UI 组件库，并在 Storybook 中维护文档；状态管理使用 Zustand + MMKV。",
+        "使用 Claude Code 进行 AI 辅助开发。"
+      ]
     },
     {
       "role": "React Native / React 开发工程师",
@@ -90,7 +99,7 @@
     { "group": "编程语言" },
     {
       "group": "移动端",
-      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "原生模块（iOS / Android）", "Expo", "Reanimated", "Gesture Handler", "Lottie", "应用商店发布"]
+      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "原生模块（iOS / Android）", "Bluetooth LE", "Expo", "Reanimated", "Gesture Handler", "Lottie", "应用商店发布"]
     },
     { "group": "Web" },
     { "group": "状态与数据" },

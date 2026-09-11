@@ -36,9 +36,17 @@
   },
   "experience": [
     {
-      "company": "IoT-компания (название уточняется)",
+      "company": "IoT-проекты (контракт)",
       "role": "React Native-разработчик",
-      "summary": "Разработка мобильных приложений для IoT-продуктов."
+      "summary": "Два мобильных приложения для умных устройств, с нуля: приложение для умных камер и приложение-трекер спортивного инвентаря на Bluetooth-метках.",
+      "highlights": [
+        "Разработал оба приложения с первого коммита на «чистом» React Native (0.84+, новая архитектура) и TypeScript.",
+        "Подключение устройств по Bluetooth LE и Wi-Fi; видео в реальном времени и события устройств через Server-Sent Events.",
+        "Геолокация, карты и фоновое отслеживание BLE-меток.",
+        "Push-уведомления (Firebase Cloud Messaging), вход через Apple / Google и по одноразовому коду.",
+        "Архитектура Feature-Sliced Design; UI-kit на Tamagui по макетам из Figma с документацией в Storybook; состояние на Zustand + MMKV.",
+        "Разработка с AI-ассистентом Claude Code."
+      ]
     },
     {
       "role": "React Native / React-разработчик",
@@ -91,7 +99,7 @@
     { "group": "Языки" },
     {
       "group": "Mobile",
-      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "Нативные модули (iOS / Android)", "Expo", "Reanimated", "Gesture Handler", "Lottie", "Публикация в сторы"]
+      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "Нативные модули (iOS / Android)", "Bluetooth LE", "Expo", "Reanimated", "Gesture Handler", "Lottie", "Публикация в сторы"]
     },
     { "group": "Web" },
     { "group": "Состояние и данные" },
