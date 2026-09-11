@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV</title>
+  <meta name="description" content="">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📄</text></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <nav class="nav" id="nav" aria-label="Sections"></nav>
+      <div class="topbar__actions">
+        <button class="btn" id="print-btn" type="button"></button>
+        <label class="lang">
+          <span class="visually-hidden" id="lang-label">Language</span>
+          <select id="lang-select" aria-labelledby="lang-label"></select>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <main class="page" id="app" aria-busy="true">
+    <p class="loading">Loading…</p>
+  </main>
+
+  <footer class="footer" id="footer"></footer>
+
+  <noscript>
+    <p class="page">This site needs JavaScript enabled to render the CV.</p>
+  </noscript>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

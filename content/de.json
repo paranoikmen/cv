@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Ivan Bogomolov — Frontend Engineer (React Native / React)",
+    "description": "Lebenslauf von Ivan Bogomolov, Frontend-Entwickler: über 5 Jahre Erfahrung mit React Native, React und TypeScript."
+  },
+  "ui": {
+    "nav": {
+      "about": "Über mich",
+      "experience": "Erfahrung",
+      "skills": "Kenntnisse",
+      "projects": "Projekte",
+      "education": "Ausbildung",
+      "languages": "Sprachen"
+    },
+    "sections": {
+      "about": "Über mich",
+      "experience": "Berufserfahrung",
+      "skills": "Kenntnisse",
+      "projects": "Projekte",
+      "education": "Ausbildung",
+      "languages": "Sprachen"
+    },
+    "present": "heute",
+    "print": "Als PDF speichern",
+    "language": "Sprache",
+    "updated": "Zuletzt aktualisiert",
+    "units": {
+      "year": { "one": "{n} Jahr", "other": "{n} Jahre" },
+      "month": { "one": "{n} Monat", "other": "{n} Monate" }
+    }
+  },
+  "profile": {
+    "name": "Ivan Bogomolov",
+    "location": "Wolgograd, Russland · offen für Remote, Hybrid und Umzug",
+    "summary": "Frontend-Entwickler mit über 5 Jahren Erfahrung in der Entwicklung mobiler und Web-Apps mit React Native, React und TypeScript. Ich habe Versicherungs-Apps mit über 50.000 Nutzern im App Store, bei Google Play, AppGallery und RuStore veröffentlicht, eine Legacy-Codebasis von React Native 0.64 auf 0.77 mit der New Architecture migriert und native Module für Zahlungen geschrieben. Aktuell entwickle ich IoT-Produkte."
+  },
+  "experience": [
+    {
+      "role": "React Native Developer",
+      "summary": "Entwicklung mobiler Apps für IoT-Produkte."
+    },
+    {
+      "role": "React Native / React Developer",
+      "location": "Moskau",
+      "summary": "Versicherungsgruppe. Zwei mobile Apps — für Kunden und für Versicherungsagenten (über 50.000 Nutzer) — sowie ein internes CRM.",
+      "highlights": [
+        "Beide Apps von React Native 0.64 auf 0.77 aktualisiert und die New Architecture aktiviert.",
+        "Zahlungen über SBP (russisches Schnellzahlungssystem) mit einem eigenen nativen Modul für Android und iOS umgesetzt.",
+        "Echtzeit-Chat über WebSocket, Push-Benachrichtigungen und biometrischen Login (Face ID / Touch ID) implementiert.",
+        "In-App-Updates ohne Drittanbieter-Bibliotheken entwickelt.",
+        "Apps im App Store / TestFlight, bei Google Play, AppGallery und RuStore veröffentlicht; Abstürze mit Sentry überwacht.",
+        "Legacy-Code auf Redux Toolkit + RTK Query + TypeScript und Feature-Sliced Design umgestellt.",
+        "React: internes CRM, Produktmetriken, Nutzeranalysen und Hypothesentests."
+      ]
+    },
+    {
+      "company": "VTB Bank",
+      "role": "Frontend Developer",
+      "location": "Moskau",
+      "summary": "Enterprise-Produkt für interne Nutzer der Bank.",
+      "highlights": [
+        "App-Architektur auf Basis von React + Redux Toolkit + TypeScript entworfen.",
+        "Mit der GraphQL-API über Apollo Client gearbeitet.",
+        "Performance und Cross-Browser-Kompatibilität verbessert."
+      ]
+    },
+    {
+      "role": "Frontend Developer",
+      "summary": "Plattform zum Sprachenlernen.",
+      "highlights": [
+        "Startseite der Website pixelgenau nach dem neuen Design neu umgesetzt.",
+        "UI-Kit für das neue Designsystem als separates npm-Paket erstellt (Ant Design + TypeScript).",
+        "Lernspiele auf der Website betreut; an Cross-Code-Reviews und dem Entwurf der neuen App-Architektur beteiligt."
+      ]
+    },
+    {
+      "company": "I-Tech Labs",
+      "role": "Frontend Developer",
+      "location": "Wolgograd",
+      "summary": "Outsourcing und Outstaffing: React- und React-Native-Apps für Kunden, von neuen Features bis zum vollständigen Support.",
+      "highlights": [
+        "Analyse-App (React Native): SVG-Diagramme (Kreis-, Balken-, Linien-, Gantt-Diagramme) und Karten (Mapbox, OpenStreetMap); beschleunigt durch Memoization und die Umstellung von Klassenkomponenten auf Hooks.",
+        "Mafia-ähnliches Multiplayer-Spiel von Grund auf entwickelt: Architektur, Drag-and-Drop-Animationen, MVP auf REST, später auf WebSockets umgestellt.",
+        "Gäste-App für Hotels (React Native, Redux): neue Screens und Bugfixes.",
+        "Web: Bildungsplattform (Redux eingeführt), API-Testtool ähnlich Postman, Hotel-CRM, Websites für Dokumentenmanagement und Flugzeugversicherung."
+      ]
+    }
+  ],
+  "skills": [
+    { "group": "Sprachen" },
+    {
+      "group": "Mobile",
+      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "Native Module (iOS / Android)", "Expo", "Reanimated", "Gesture Handler", "Lottie", "Store-Veröffentlichungen"]
+    },
+    { "group": "Web" },
+    { "group": "State & Daten" },
+    { "group": "UI & Formulare" },
+    { "group": "Architektur & Tools" },
+    { "group": "Außerdem gearbeitet mit" }
+  ],
+  "education": [
+    {
+      "institution": "Staatliche Technische Universität Wolgograd",
+      "degree": "Master, Automatisierte Informationsverarbeitungs- und Steuerungssysteme"
+    },
+    {
+      "institution": "Staatliche Technische Universität Wolgograd",
+      "degree": "Bachelor, Softwaretechnik"
+    }
+  ],
+  "languages": [
+    { "name": "Russisch", "level": "Muttersprache" },
+    { "name": "Englisch", "level": "B1 — Mittelstufe" }
+  ]
+}

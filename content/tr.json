@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Ivan Bogomolov — Frontend Engineer (React Native / React)",
+    "description": "Frontend mühendisi Ivan Bogomolov'un özgeçmişi: React Native, React ve TypeScript ile 5+ yıllık deneyim."
+  },
+  "ui": {
+    "nav": {
+      "about": "Hakkımda",
+      "experience": "Deneyim",
+      "skills": "Yetenekler",
+      "projects": "Projeler",
+      "education": "Eğitim",
+      "languages": "Diller"
+    },
+    "sections": {
+      "about": "Hakkımda",
+      "experience": "İş deneyimi",
+      "skills": "Yetenekler",
+      "projects": "Projeler",
+      "education": "Eğitim",
+      "languages": "Diller"
+    },
+    "present": "Devam ediyor",
+    "print": "PDF olarak kaydet",
+    "language": "Dil",
+    "updated": "Son güncelleme",
+    "units": {
+      "year": { "one": "{n} yıl", "other": "{n} yıl" },
+      "month": { "one": "{n} ay", "other": "{n} ay" }
+    }
+  },
+  "profile": {
+    "name": "Ivan Bogomolov",
+    "location": "Volgograd, Rusya · uzaktan, hibrit çalışmaya ve taşınmaya açığım",
+    "summary": "React Native, React ve TypeScript ile mobil ve web uygulamaları geliştirmede 5+ yıllık deneyime sahip frontend mühendisiyim. 50 binden fazla kullanıcılı sigorta uygulamalarını App Store, Google Play, AppGallery ve RuStore'da yayınladım, eski bir React Native 0.64 kod tabanını New Architecture ile 0.77'ye taşıdım ve ödemeler için native modüller yazdım. Şu anda IoT ürünleri geliştiriyorum."
+  },
+  "experience": [
+    {
+      "role": "React Native Geliştirici",
+      "summary": "IoT ürünleri için mobil uygulamalar geliştiriyorum."
+    },
+    {
+      "role": "React Native / React Geliştirici",
+      "location": "Moskova",
+      "summary": "Sigorta grubu. Müşteriler ve sigorta acenteleri için iki mobil uygulama (50 binden fazla kullanıcı) ve şirket içi bir CRM.",
+      "highlights": [
+        "İki uygulamayı da React Native 0.64'ten 0.77'ye yükselttim ve New Architecture'ı etkinleştirdim.",
+        "Android ve iOS için özel bir native modülle SBP (Rusya'nın anlık ödeme sistemi) ödemelerini geliştirdim.",
+        "WebSocket üzerinden gerçek zamanlı sohbet, push bildirimleri ve biyometrik giriş (Face ID / Touch ID) ekledim.",
+        "Üçüncü taraf kütüphane kullanmadan uygulama içi güncelleme geliştirdim.",
+        "Uygulamaları App Store / TestFlight, Google Play, AppGallery ve RuStore'da yayınladım; çökmeleri Sentry ile izledim.",
+        "Eski kodu Redux Toolkit + RTK Query + TypeScript ve Feature-Sliced Design'a taşıdım.",
+        "React: şirket içi CRM, ürün metrikleri, kullanıcı analitiği ve hipotez testleri."
+      ]
+    },
+    {
+      "company": "VTB Bank",
+      "role": "Frontend Geliştirici",
+      "location": "Moskova",
+      "summary": "Bankanın şirket içi kullanıcıları için kurumsal ürün.",
+      "highlights": [
+        "Uygulama mimarisini React + Redux Toolkit + TypeScript üzerine tasarladım.",
+        "Apollo Client ile GraphQL API üzerinde çalıştım.",
+        "Performansı ve tarayıcılar arası uyumluluğu iyileştirdim."
+      ]
+    },
+    {
+      "role": "Frontend Geliştirici",
+      "summary": "Dil öğrenme platformu.",
+      "highlights": [
+        "Sitenin ana sayfasını yeni tasarıma göre piksel piksel yeniden yaptım.",
+        "Yeni tasarım sistemi için ayrı bir npm paketi olarak UI kit oluşturdum (Ant Design + TypeScript).",
+        "Sitedeki eğitici oyunların bakımını yaptım; çapraz kod incelemelerine ve yeni uygulama mimarisinin tasarımına katıldım."
+      ]
+    },
+    {
+      "company": "I-Tech Labs",
+      "role": "Frontend Geliştirici",
+      "location": "Volgograd",
+      "summary": "Dış kaynak ve outstaff: müşteriler için React ve React Native uygulamaları, yeni özelliklerden tam desteğe kadar.",
+      "highlights": [
+        "Analitik uygulaması (React Native): SVG grafikler (pasta, çubuk, çizgi, Gantt) ve haritalar (Mapbox, OpenStreetMap); memoization ve class bileşenlerden hook'lara geçişle hızlandırdım.",
+        "Sıfırdan geliştirilen «Mafia» tarzı çok oyunculu oyun: mimari, sürükle-bırak animasyonları, önce REST üzerinde MVP, ardından WebSocket'e geçiş.",
+        "Otel misafirleri için uygulama (React Native, Redux): yeni ekranlar ve hata düzeltmeleri.",
+        "Web: eğitim platformu (Redux'ı ekledim), Postman benzeri API test aracı, otel CRM'i, doküman yönetimi ve uçak sigortası siteleri."
+      ]
+    }
+  ],
+  "skills": [
+    { "group": "Programlama dilleri" },
+    {
+      "group": "Mobil",
+      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "Native modüller (iOS / Android)", "Expo", "Reanimated", "Gesture Handler", "Lottie", "Mağazalarda yayınlama"]
+    },
+    { "group": "Web" },
+    { "group": "State ve veri" },
+    { "group": "UI ve formlar" },
+    { "group": "Mimari ve araçlar" },
+    { "group": "Ayrıca çalıştığım teknolojiler" }
+  ],
+  "education": [
+    {
+      "institution": "Volgograd Devlet Teknik Üniversitesi",
+      "degree": "Yüksek lisans, Otomatik Bilgi İşleme ve Kontrol Sistemleri"
+    },
+    {
+      "institution": "Volgograd Devlet Teknik Üniversitesi",
+      "degree": "Lisans, Yazılım Mühendisliği"
+    }
+  ],
+  "languages": [
+    { "name": "Rusça", "level": "Ana dil" },
+    { "name": "İngilizce", "level": "B1 — Orta seviye" }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Ivan Bogomolov — フロントエンドエンジニア（React Native / React）",
+    "description": "Ivan Bogomolov の職務経歴：React Native、React、TypeScript の経験 5 年以上のフロントエンドエンジニア。"
+  },
+  "ui": {
+    "nav": {
+      "about": "概要",
+      "experience": "職歴",
+      "skills": "スキル",
+      "projects": "プロジェクト",
+      "education": "学歴",
+      "languages": "語学"
+    },
+    "sections": {
+      "about": "自己紹介",
+      "experience": "職歴",
+      "skills": "スキル",
+      "projects": "プロジェクト",
+      "education": "学歴",
+      "languages": "語学"
+    },
+    "present": "現在",
+    "print": "PDF として保存",
+    "language": "言語",
+    "updated": "最終更新",
+    "units": {
+      "year": { "other": "{n}年" },
+      "month": { "other": "{n}か月" }
+    }
+  },
+  "profile": {
+    "name": "Ivan Bogomolov",
+    "location": "ロシア・ヴォルゴグラード · リモート、ハイブリッド、転居可",
+    "summary": "React Native、React、TypeScript によるモバイル・Web アプリ開発で 5 年以上の経験を持つフロントエンドエンジニアです。ユーザー数 5 万人以上の保険アプリを App Store、Google Play、AppGallery、RuStore にリリースし、レガシーな React Native 0.64 のコードベースを 0.77 に移行して New Architecture を有効化しました。決済用のネイティブモジュールも開発しています。現在は IoT 製品を開発しています。"
+  },
+  "experience": [
+    {
+      "role": "React Native エンジニア",
+      "summary": "IoT 製品向けモバイルアプリの開発。"
+    },
+    {
+      "role": "React Native / React エンジニア",
+      "location": "モスクワ",
+      "summary": "保険グループ。顧客向けと保険代理店向けの 2 つのモバイルアプリ（ユーザー数 5 万人以上）と社内 CRM を担当。",
+      "highlights": [
+        "両アプリを React Native 0.64 から 0.77 にアップグレードし、New Architecture を有効化。",
+        "Android / iOS 向けの独自ネイティブモジュールで SBP（ロシアの即時決済システム）による支払いを実装。",
+        "WebSocket によるリアルタイムチャット、プッシュ通知、生体認証ログイン（Face ID / Touch ID）を実装。",
+        "サードパーティライブラリを使わずにアプリ内アップデートを実装。",
+        "App Store / TestFlight、Google Play、AppGallery、RuStore へのリリースを担当し、Sentry でクラッシュを監視。",
+        "レガシーコードを Redux Toolkit + RTK Query + TypeScript と Feature-Sliced Design に移行。",
+        "React：社内 CRM、プロダクト指標、ユーザー分析、仮説検証。"
+      ]
+    },
+    {
+      "company": "VTB銀行",
+      "role": "フロントエンドエンジニア",
+      "location": "モスクワ",
+      "summary": "銀行の社内ユーザー向けエンタープライズ製品。",
+      "highlights": [
+        "React + Redux Toolkit + TypeScript でアプリのアーキテクチャを設計。",
+        "Apollo Client を通じて GraphQL API と連携。",
+        "パフォーマンスとクロスブラウザ互換性を改善。"
+      ]
+    },
+    {
+      "role": "フロントエンドエンジニア",
+      "summary": "語学学習プラットフォーム。",
+      "highlights": [
+        "新デザインに合わせて Web サイトのトップページをピクセルパーフェクトで再構築。",
+        "新デザインシステム用の UI キットを独立した npm パッケージとして作成（Ant Design + TypeScript）。",
+        "サイト内の学習ゲームを保守し、相互コードレビューと新しいアプリアーキテクチャの設計に参加。"
+      ]
+    },
+    {
+      "company": "I-Tech Labs",
+      "role": "フロントエンドエンジニア",
+      "location": "ヴォルゴグラード",
+      "summary": "受託開発・客先常駐：顧客向けの React / React Native アプリを、新機能開発から全面的な保守まで担当。",
+      "highlights": [
+        "分析アプリ（React Native）：SVG チャート（円グラフ、棒グラフ、折れ線グラフ、ガントチャート）と地図（Mapbox、OpenStreetMap）を実装。メモ化とクラスコンポーネントから Hooks への移行で高速化。",
+        "「人狼」風のマルチプレイヤーゲームをゼロから開発：アーキテクチャ設計、ドラッグ＆ドロップのアニメーション、REST による MVP から WebSocket への移行。",
+        "ホテル宿泊客向けアプリ（React Native、Redux）：新画面の実装とバグ修正。",
+        "Web：教育プラットフォーム（Redux を導入）、Postman のような API テストツール、ホテル向け CRM、文書管理サイト、航空機保険サイト。"
+      ]
+    }
+  ],
+  "skills": [
+    { "group": "言語" },
+    {
+      "group": "モバイル",
+      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "ネイティブモジュール（iOS / Android）", "Expo", "Reanimated", "Gesture Handler", "Lottie", "ストアへのリリース"]
+    },
+    { "group": "Web" },
+    { "group": "状態管理・データ" },
+    { "group": "UI・フォーム" },
+    { "group": "アーキテクチャ・ツール" },
+    { "group": "その他の経験" }
+  ],
+  "education": [
+    {
+      "institution": "ヴォルゴグラード国立工科大学",
+      "degree": "修士課程、情報処理・制御自動化システム"
+    },
+    {
+      "institution": "ヴォルゴグラード国立工科大学",
+      "degree": "学士課程、ソフトウェア工学"
+    }
+  ],
+  "languages": [
+    { "name": "ロシア語", "level": "ネイティブ" },
+    { "name": "英語", "level": "B1 — 中級" }
+  ]
+}

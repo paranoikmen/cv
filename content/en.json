@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "Ivan Bogomolov — Frontend Engineer (React Native / React)",
+    "description": "CV of Ivan Bogomolov, frontend engineer: 5+ years of React Native, React and TypeScript."
+  },
+  "ui": {
+    "nav": {
+      "about": "About",
+      "experience": "Experience",
+      "skills": "Skills",
+      "projects": "Projects",
+      "education": "Education",
+      "languages": "Languages"
+    },
+    "sections": {
+      "about": "About",
+      "experience": "Experience",
+      "skills": "Skills",
+      "projects": "Projects",
+      "education": "Education",
+      "languages": "Languages"
+    },
+    "present": "Present",
+    "print": "Save as PDF",
+    "language": "Language",
+    "updated": "Last updated",
+    "units": {
+      "year": { "one": "{n} yr", "other": "{n} yrs" },
+      "month": { "one": "{n} mo", "other": "{n} mos" }
+    }
+  },
+  "profile": {
+    "name": "Ivan Bogomolov",
+    "title": "Frontend Engineer · React Native / React",
+    "location": "Volgograd, Russia · open to remote, hybrid and relocation",
+    "summary": "Frontend engineer with 5+ years of experience building mobile and web apps with React Native, React and TypeScript. I have shipped insurance apps with 50k+ users to the App Store, Google Play, AppGallery and RuStore, migrated a legacy React Native 0.64 codebase to 0.77 with the New Architecture, and written native modules for payments. Now building IoT products.",
+    "contacts": [
+      { "type": "email", "label": "bogomolov222@gmail.com", "url": "mailto:bogomolov222@gmail.com" },
+      { "type": "telegram", "label": "@paranoikmen", "url": "https://t.me/paranoikmen" },
+      { "type": "github", "label": "github.com/paranoikmen", "url": "https://github.com/paranoikmen" }
+    ]
+  },
+  "experience": [
+    {
+      "company": "IoT company (name TBD)",
+      "role": "React Native Developer",
+      "start": "2026-03",
+      "end": null,
+      "summary": "Building mobile apps for IoT products.",
+      "stack": ["React Native", "TypeScript", "Zustand", "SSE", "IoT", "UI kit", "Claude"]
+    },
+    {
+      "company": "Generali PPF",
+      "url": "https://www.generalippf.ru",
+      "role": "React Native / React Developer",
+      "location": "Moscow",
+      "start": "2022-10",
+      "end": null,
+      "summary": "Insurance group. Two mobile apps — for clients and for insurance agents (50k+ users) — plus an internal CRM.",
+      "highlights": [
+        "Upgraded both apps from React Native 0.64 to 0.77 and enabled the New Architecture.",
+        "Built SBP (Faster Payments System) payments through a custom native module for Android and iOS.",
+        "Implemented real-time chat over WebSocket, push notifications and biometric login (Face ID / Touch ID).",
+        "Built in-app updates without third-party libraries.",
+        "Released apps to the App Store / TestFlight, Google Play, AppGallery and RuStore; monitored crashes with Sentry.",
+        "Moved legacy code to Redux Toolkit + RTK Query + TypeScript and Feature-Sliced Design.",
+        "React: internal CRM, product metrics, user analytics and hypothesis testing."
+      ],
+      "stack": ["React Native", "TypeScript", "Redux Toolkit", "RTK Query", "Zustand", "Styled Components", "Feature-Sliced Design", "WebSocket", "Sentry", "React"]
+    },
+    {
+      "company": "VTB Bank",
+      "url": "https://www.vtb.ru",
+      "role": "Frontend Developer",
+      "location": "Moscow",
+      "start": "2024-08",
+      "end": "2025-02",
+      "summary": "Enterprise product for the bank's internal users.",
+      "highlights": [
+        "Designed the app architecture on React + Redux Toolkit + TypeScript.",
+        "Worked with the GraphQL API through Apollo Client.",
+        "Improved performance and cross-browser compatibility."
+      ],
+      "stack": ["React", "TypeScript", "Redux Toolkit", "GraphQL", "Apollo"]
+    },
+    {
+      "company": "Lingualeo",
+      "url": "https://lingualeo.com",
+      "role": "Frontend Developer",
+      "start": "2022-07",
+      "end": "2022-09",
+      "summary": "Language learning platform.",
+      "highlights": [
+        "Rebuilt the website's main page pixel-perfect to the new design.",
+        "Created a UI kit for the new design system as a separate npm package (Ant Design + TypeScript).",
+        "Supported the in-site learning games; took part in cross code review and designing the new app architecture."
+      ],
+      "stack": ["React", "Next.js", "TypeScript", "MobX", "Ant Design"]
+    },
+    {
+      "company": "I-Tech Labs",
+      "role": "Frontend Developer",
+      "location": "Volgograd",
+      "start": "2021-07",
+      "end": "2022-06",
+      "summary": "Outsourcing and outstaffing: React and React Native apps for clients, from new features to full support.",
+      "highlights": [
+        "Analytics app (React Native): SVG charts (pie, bar, line, Gantt) and maps (Mapbox, OpenStreetMap); sped it up with memoization and a move from class components to hooks.",
+        "Mafia-style multiplayer game built from scratch: architecture, drag-and-drop animations, MVP on REST later moved to WebSockets.",
+        "Hotel guest app (React Native, Redux): new screens and bug fixes.",
+        "Web: education platform (introduced Redux), API testing tool similar to Postman, hotel CRM, document management and aircraft insurance sites."
+      ],
+      "stack": ["React Native", "React", "TypeScript", "Redux", "Redux Saga", "Redux Toolkit", "Mapbox"]
+    }
+  ],
+  "skills": [
+    { "group": "Languages", "items": ["TypeScript", "JavaScript", "HTML", "CSS"] },
+    { "group": "Mobile", "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "Native modules (iOS / Android)", "Expo", "Reanimated", "Gesture Handler", "Lottie", "Store releases"] },
+    { "group": "Web", "items": ["React", "Next.js", "Framer Motion", "React Spring", "TanStack Table", "React Virtualized"] },
+    { "group": "State & data", "items": ["Redux Toolkit", "RTK Query", "MobX", "Zustand", "React Query / SWR", "REST", "GraphQL (Apollo, urql)", "WebSocket / Socket.IO", "SSE"] },
+    { "group": "UI & forms", "items": ["Styled Components", "Tailwind CSS", "Ant Design", "NativeBase", "Storybook", "React Hook Form", "Formik", "Yup / Zod"] },
+    { "group": "Architecture & tools", "items": ["Feature-Sliced Design", "Clean Architecture", "ESLint / Prettier", "Husky / lint-staged", "i18next", "Sentry", "Firebase Analytics", "Git", "Claude"] },
+    { "group": "Also worked with", "items": ["Node.js / Express", "Kotlin", "Swift", "Java", "C++", "C#", "Python", "MySQL / NoSQL"] }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "institution": "Volgograd State Technical University",
+      "degree": "Master's degree, Automated Information Processing and Control Systems",
+      "end": "2023"
+    },
+    {
+      "institution": "Volgograd State Technical University",
+      "degree": "Bachelor's degree, Software Engineering",
+      "end": "2021"
+    }
+  ],
+  "languages": [
+    { "name": "Russian", "level": "Native" },
+    { "name": "English", "level": "B1 — Intermediate" }
+  ],
+  "updated": "2026-09"
+}

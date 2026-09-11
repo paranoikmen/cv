@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Ivan Bogomolov — Frontend Engineer (React Native / React)",
+    "description": "CV d'Ivan Bogomolov, développeur frontend : plus de 5 ans d'expérience avec React Native, React et TypeScript."
+  },
+  "ui": {
+    "nav": {
+      "about": "À propos",
+      "experience": "Expérience",
+      "skills": "Compétences",
+      "projects": "Projets",
+      "education": "Formation",
+      "languages": "Langues"
+    },
+    "sections": {
+      "about": "À propos",
+      "experience": "Expérience professionnelle",
+      "skills": "Compétences",
+      "projects": "Projets",
+      "education": "Formation",
+      "languages": "Langues"
+    },
+    "present": "aujourd'hui",
+    "print": "Enregistrer en PDF",
+    "language": "Langue",
+    "updated": "Dernière mise à jour",
+    "units": {
+      "year": { "one": "{n} an", "many": "{n} ans", "other": "{n} ans" },
+      "month": { "one": "{n} mois", "many": "{n} mois", "other": "{n} mois" }
+    }
+  },
+  "profile": {
+    "name": "Ivan Bogomolov",
+    "location": "Volgograd, Russie · ouvert au télétravail, à l'hybride et à la relocalisation",
+    "summary": "Développeur frontend avec plus de 5 ans d'expérience dans la création d'applications mobiles et web avec React Native, React et TypeScript. J'ai publié des applications d'assurance comptant plus de 50 000 utilisateurs sur l'App Store, Google Play, AppGallery et RuStore, migré une base de code legacy de React Native 0.64 vers 0.77 avec la New Architecture et développé des modules natifs pour les paiements. Je travaille aujourd'hui sur des produits IoT."
+  },
+  "experience": [
+    {
+      "role": "Développeur React Native",
+      "summary": "Développement d'applications mobiles pour des produits IoT."
+    },
+    {
+      "role": "Développeur React Native / React",
+      "location": "Moscou",
+      "summary": "Groupe d'assurance. Deux applications mobiles — pour les clients et pour les agents d'assurance (plus de 50 000 utilisateurs) — ainsi qu'un CRM interne.",
+      "highlights": [
+        "Mise à jour des deux applications de React Native 0.64 vers 0.77 et activation de la New Architecture.",
+        "Paiements via SBP (système russe de paiements rapides) grâce à un module natif maison pour Android et iOS.",
+        "Chat en temps réel sur WebSocket, notifications push et connexion biométrique (Face ID / Touch ID).",
+        "Mises à jour intégrées à l'application, sans bibliothèque tierce.",
+        "Publication sur l'App Store / TestFlight, Google Play, AppGallery et RuStore ; suivi des crashs avec Sentry.",
+        "Migration du code legacy vers Redux Toolkit + RTK Query + TypeScript et Feature-Sliced Design.",
+        "React : CRM interne, métriques produit, analytique utilisateurs et tests d'hypothèses."
+      ]
+    },
+    {
+      "company": "VTB Bank",
+      "role": "Développeur frontend",
+      "location": "Moscou",
+      "summary": "Produit enterprise destiné aux utilisateurs internes de la banque.",
+      "highlights": [
+        "Conception de l'architecture de l'application en React + Redux Toolkit + TypeScript.",
+        "Travail avec l'API GraphQL via Apollo Client.",
+        "Amélioration des performances et de la compatibilité multinavigateur."
+      ]
+    },
+    {
+      "role": "Développeur frontend",
+      "summary": "Plateforme d'apprentissage des langues.",
+      "highlights": [
+        "Refonte au pixel près de la page d'accueil du site selon le nouveau design.",
+        "Création d'un UI kit pour le nouveau design system, publié comme package npm séparé (Ant Design + TypeScript).",
+        "Maintenance des jeux pédagogiques du site ; participation aux revues de code croisées et à la conception de la nouvelle architecture."
+      ]
+    },
+    {
+      "company": "I-Tech Labs",
+      "role": "Développeur frontend",
+      "location": "Volgograd",
+      "summary": "Outsourcing et outstaffing : applications React et React Native pour des clients, des nouvelles fonctionnalités jusqu'au support complet.",
+      "highlights": [
+        "Application d'analyse (React Native) : graphiques SVG (secteurs, barres, courbes, Gantt) et cartes (Mapbox, OpenStreetMap) ; optimisée par la mémoïsation et le passage des composants de classe aux hooks.",
+        "Jeu multijoueur de type « Mafia » créé de zéro : architecture, animations drag-and-drop, MVP en REST puis passage aux WebSockets.",
+        "Application pour les clients d'hôtels (React Native, Redux) : nouveaux écrans et corrections de bugs.",
+        "Web : plateforme éducative (introduction de Redux), outil de test d'API proche de Postman, CRM hôtelier, sites de gestion documentaire et d'assurance aéronautique."
+      ]
+    }
+  ],
+  "skills": [
+    { "group": "Langages" },
+    {
+      "group": "Mobile",
+      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "Modules natifs (iOS / Android)", "Expo", "Reanimated", "Gesture Handler", "Lottie", "Publication sur les stores"]
+    },
+    { "group": "Web" },
+    { "group": "État & données" },
+    { "group": "UI & formulaires" },
+    { "group": "Architecture & outils" },
+    { "group": "A aussi travaillé avec" }
+  ],
+  "education": [
+    {
+      "institution": "Université technique d'État de Volgograd",
+      "degree": "Master, Systèmes automatisés de traitement de l'information et de contrôle"
+    },
+    {
+      "institution": "Université technique d'État de Volgograd",
+      "degree": "Licence, Génie logiciel"
+    }
+  ],
+  "languages": [
+    { "name": "Russe", "level": "Langue maternelle" },
+    { "name": "Anglais", "level": "B1 — Intermédiaire" }
+  ]
+}

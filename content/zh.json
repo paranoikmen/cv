@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Ivan Bogomolov — 前端工程师（React Native / React）",
+    "description": "Ivan Bogomolov 的简历：前端工程师，5 年以上 React Native、React 和 TypeScript 开发经验。"
+  },
+  "ui": {
+    "nav": {
+      "about": "关于我",
+      "experience": "经历",
+      "skills": "技能",
+      "projects": "项目",
+      "education": "教育",
+      "languages": "语言"
+    },
+    "sections": {
+      "about": "关于我",
+      "experience": "工作经历",
+      "skills": "技能",
+      "projects": "项目",
+      "education": "教育背景",
+      "languages": "语言能力"
+    },
+    "present": "至今",
+    "print": "保存为 PDF",
+    "language": "语言",
+    "updated": "最后更新",
+    "units": {
+      "year": { "other": "{n}年" },
+      "month": { "other": "{n}个月" }
+    }
+  },
+  "profile": {
+    "name": "Ivan Bogomolov",
+    "location": "俄罗斯伏尔加格勒 · 可远程、混合办公或搬迁",
+    "summary": "前端工程师，拥有 5 年以上使用 React Native、React 和 TypeScript 开发移动端与 Web 应用的经验。曾将用户超过 5 万的保险类应用发布到 App Store、Google Play、AppGallery 和 RuStore，将遗留的 React Native 0.64 代码库升级到 0.77 并启用新架构，还编写过用于支付的原生模块。目前从事 IoT 产品开发。"
+  },
+  "experience": [
+    {
+      "role": "React Native 开发工程师",
+      "summary": "为 IoT 产品开发移动应用。"
+    },
+    {
+      "role": "React Native / React 开发工程师",
+      "location": "莫斯科",
+      "summary": "保险集团。负责两款移动应用（面向客户和保险代理人，用户超过 5 万）以及内部 CRM。",
+      "highlights": [
+        "将两款应用从 React Native 0.64 升级到 0.77，并启用新架构。",
+        "通过自研的 Android 和 iOS 原生模块实现 SBP（俄罗斯快速支付系统）支付。",
+        "实现基于 WebSocket 的实时聊天、推送通知以及生物识别登录（Face ID / Touch ID）。",
+        "在不依赖第三方库的情况下实现应用内更新。",
+        "将应用发布到 App Store / TestFlight、Google Play、AppGallery 和 RuStore；使用 Sentry 监控崩溃。",
+        "将遗留代码迁移到 Redux Toolkit + RTK Query + TypeScript，并采用 Feature-Sliced Design。",
+        "React：内部 CRM、产品指标、用户数据分析和假设验证。"
+      ]
+    },
+    {
+      "company": "VTB 银行",
+      "role": "前端开发工程师",
+      "location": "莫斯科",
+      "summary": "面向银行内部用户的企业级产品。",
+      "highlights": [
+        "基于 React + Redux Toolkit + TypeScript 设计应用架构。",
+        "通过 Apollo Client 对接 GraphQL API。",
+        "优化性能和跨浏览器兼容性。"
+      ]
+    },
+    {
+      "role": "前端开发工程师",
+      "summary": "语言学习平台。",
+      "highlights": [
+        "按新设计像素级还原并重做网站首页。",
+        "为新设计系统开发 UI 组件库，并作为独立 npm 包发布（Ant Design + TypeScript）。",
+        "维护站内学习游戏；参与交叉代码评审和新应用架构设计。"
+      ]
+    },
+    {
+      "company": "I-Tech Labs",
+      "role": "前端开发工程师",
+      "location": "伏尔加格勒",
+      "summary": "外包与外派：为客户开发 React 和 React Native 应用，从新功能开发到全面维护。",
+      "highlights": [
+        "数据分析应用（React Native）：SVG 图表（饼图、柱状图、折线图、甘特图）和地图（Mapbox、OpenStreetMap）；通过 memo 优化以及从类组件迁移到 Hooks 提升性能。",
+        "从零开发类似“狼人杀”的多人游戏：架构设计、拖放动画，MVP 基于 REST，后迁移到 WebSocket。",
+        "酒店住客应用（React Native、Redux）：开发新页面并修复缺陷。",
+        "Web：教育平台（引入 Redux）、类似 Postman 的 API 测试工具、酒店 CRM、文档管理网站和飞机保险网站。"
+      ]
+    }
+  ],
+  "skills": [
+    { "group": "编程语言" },
+    {
+      "group": "移动端",
+      "items": ["React Native", "New Architecture: Fabric, TurboModules, JSI, Codegen", "原生模块（iOS / Android）", "Expo", "Reanimated", "Gesture Handler", "Lottie", "应用商店发布"]
+    },
+    { "group": "Web" },
+    { "group": "状态与数据" },
+    { "group": "UI 与表单" },
+    { "group": "架构与工具" },
+    { "group": "其他经验" }
+  ],
+  "education": [
+    {
+      "institution": "伏尔加格勒国立技术大学",
+      "degree": "硕士，自动化信息处理与控制系统"
+    },
+    {
+      "institution": "伏尔加格勒国立技术大学",
+      "degree": "学士，软件工程"
+    }
+  ],
+  "languages": [
+    { "name": "俄语", "level": "母语" },
+    { "name": "英语", "level": "B1 — 中级" }
+  ]
+}
