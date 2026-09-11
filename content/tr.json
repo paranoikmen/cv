@@ -32,7 +32,7 @@
   "profile": {
     "name": "Ivan Bogomolov",
     "location": "Da Nang, Vietnam · uzaktan, hibrit çalışmaya ve taşınmaya açığım",
-    "summary": "React Native, React ve TypeScript ile mobil ve web uygulamaları geliştirmede 5+ yıllık deneyime sahip frontend mühendisiyim. 50 binden fazla kullanıcılı sigorta uygulamalarını App Store, Google Play, AppGallery ve RuStore'da yayınladım, eski bir React Native 0.64 kod tabanını New Architecture ile 0.77'ye taşıdım ve ödemeler için native modüller yazdım. Şu anda IoT ürünleri geliştiriyorum."
+    "summary": "React Native, React ve TypeScript ile mobil ve web uygulamaları geliştirmede 5+ yıllık deneyime sahip frontend mühendisiyim. 50 binden fazla kullanıcılı sigorta uygulamalarını App Store, Google Play, AppGallery ve RuStore'da yayınladım, eski bir React Native 0.64 kod tabanını New Architecture ile 0.77'ye taşıdım (soğuk başlatma %30–35 daha hızlı, FPS 45'ten 57+'ya, çökmesiz oturum oranı %99,95'in üzerinde) ve ödemeler için native modüller yazdım. Şu anda IoT ürünleri geliştiriyorum."
   },
   "experience": [
     {
@@ -41,7 +41,7 @@
       "summary": "Bağlantılı cihazlar için sıfırdan geliştirilen iki mobil uygulama: akıllı kameralar için bir yardımcı uygulama ve Bluetooth etiketli spor ekipmanı takip uygulaması.",
       "highlights": [
         "İki uygulamayı da ilk commit’ten itibaren bare React Native (0.84+, New Architecture) ve TypeScript ile geliştirdim.",
-        "Bluetooth LE ve Wi-Fi ile cihaz kurulumu; Server-Sent Events ile canlı video ve gerçek zamanlı cihaz olayları.",
+        "Bluetooth LE ve Wi-Fi ile cihaz kurulumu ve eşleştirme, bağlantı başarı oranı %95'e yükseltildi; Server-Sent Events ile canlı video ve gerçek zamanlı cihaz olayları.",
         "Konum belirleme, haritalar ve BLE etiketlerinin arka planda takibi.",
         "Push bildirimleri (Firebase Cloud Messaging), Apple / Google ile ve tek kullanımlık kodla giriş.",
         "Feature-Sliced Design mimarisi; Figma tasarımlarından Tamagui üzerinde UI kit, Storybook ile belgelenmiş; durum yönetimi Zustand + MMKV.",
@@ -53,11 +53,12 @@
       "location": "Moskova",
       "summary": "Sigorta grubu. Müşteriler ve sigorta acenteleri için iki mobil uygulama (50 binden fazla kullanıcı) ve şirket içi bir CRM.",
       "highlights": [
-        "İki uygulamayı da React Native 0.64'ten 0.77'ye yükselttim ve New Architecture'ı etkinleştirdim.",
+        "İki uygulamayı da React Native 0.64'ten 0.77'ye yükselttim ve New Architecture'ı (Fabric, TurboModules) etkinleştirdim: soğuk başlatma %30–35 daha hızlı, liste ve arayüz render'ı %30'dan fazla hızlandı, native modül çağrıları 50 kata kadar hızlandı.",
         "Android ve iOS için özel bir native modülle SBP (Rusya'nın anlık ödeme sistemi) ödemelerini geliştirdim.",
         "WebSocket üzerinden gerçek zamanlı sohbet, push bildirimleri ve biyometrik giriş (Face ID / Touch ID) ekledim.",
-        "Üçüncü taraf kütüphane kullanmadan uygulama içi güncelleme geliştirdim.",
-        "Uygulamaları App Store / TestFlight, Google Play, AppGallery ve RuStore'da yayınladım; çökmeleri Sentry ile izledim.",
+        "Üçüncü taraf kütüphane kullanmadan uygulama içi güncelleme geliştirdim: güncel sürümü kullananların oranı arttı, yeni sürümler daha hızlı benimsendi.",
+        "Uygulamaları App Store / TestFlight, Google Play, AppGallery ve RuStore'da yayınladım; çökmeleri Sentry ile izleyip giderdim; çökmesiz oturum oranı %99,95'in üzerinde.",
+        "Performans optimizasyonu: FPS 45'ten 57+'ya çıktı.",
         "Eski kodu Redux Toolkit + RTK Query + TypeScript ve Feature-Sliced Design'a taşıdım.",
         "React: şirket içi CRM, ürün metrikleri, kullanıcı analitiği ve hipotez testleri."
       ]

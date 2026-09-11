@@ -33,7 +33,7 @@
     "name": "Ivan Bogomolov",
     "title": "Frontend Engineer · React Native / React",
     "location": "Da Nang, Vietnam · open to remote, hybrid and relocation",
-    "summary": "Frontend engineer with 5+ years of shipping mobile and web products on React Native, React and TypeScript. I maintain insurance apps with 50k+ users released to 4 app stores, took them 13 React Native versions forward to 0.77 and the New Architecture, and built native payment modules. On my current contract I built two IoT apps from an empty repository to ~70 screens in 6 months.",
+    "summary": "Frontend engineer with 5+ years of shipping mobile and web products on React Native, React and TypeScript. I maintain insurance apps with 50k+ users released to 4 app stores, took them 13 React Native versions forward to 0.77 and the New Architecture — cold start 30–35% faster, FPS up from 45 to 57+, crash-free sessions above 99.95% — and built native payment modules. On my current contract I built two IoT apps from an empty repository to ~70 screens in 6 months.",
     "contacts": [
       { "type": "email", "label": "bogomolov222@gmail.com", "url": "mailto:bogomolov222@gmail.com" },
       { "type": "telegram", "label": "@paranoikmen", "url": "https://t.me/paranoikmen" },
@@ -51,7 +51,7 @@
       "highlights": [
         "Took both apps from an empty repository to ~70 screens in 6 months (250+ commits) on bare React Native 0.84+ with the New Architecture and TypeScript.",
         "Designed a Feature-Sliced architecture and a Tamagui UI kit (~40 components, built from Figma mockups); the second app was built on the same foundation.",
-        "Device onboarding over Bluetooth LE and Wi-Fi: defined the BLE message format with the firmware team and wrote the integration guide for them.",
+        "Device onboarding over Bluetooth LE and Wi-Fi with device connection success raised to 95%: defined the BLE message format with the firmware team and wrote the integration guide for them.",
         "Live video and real-time device events over Server-Sent Events; push notifications via Firebase Cloud Messaging.",
         "Background tracking of BLE tags with geolocation, maps and left-behind alerts.",
         "Sign in with Apple / Google and one-time-code login; state in Zustand + MMKV; AI-assisted workflow with Claude Code."
@@ -67,11 +67,12 @@
       "end": null,
       "summary": "Insurance group. Two mobile apps — for policyholders and for insurance agents, 50k+ users — plus an internal CRM.",
       "highlights": [
-        "Moved both apps 13 React Native versions forward, from 0.64 to 0.77, and switched them to the New Architecture (Fabric, TurboModules) — unblocking current libraries and OS versions.",
+        "Moved both apps 13 React Native versions forward, from 0.64 to 0.77, and switched them to the New Architecture (Fabric, TurboModules): cold start 30–35% faster, list and UI rendering 30%+ faster, native module calls up to 50× faster.",
         "Launched SBP (Faster Payments System) payments through a custom native module for Android and iOS — a new in-app payment channel.",
-        "Built an in-app update flow without third-party libraries, so users move to new versions without leaving the app.",
+        "Built an in-app update flow without third-party libraries, so users move to new versions without leaving the app — a larger share of users on the latest version and faster release adoption.",
         "Shipped real-time chat over WebSocket, push notifications and biometric login (Face ID / Touch ID).",
-        "Released to 4 stores — App Store, Google Play, AppGallery and RuStore; tracked and fixed production crashes with Sentry.",
+        "Released to 4 stores — App Store, Google Play, AppGallery and RuStore; tracked and fixed production crashes with Sentry, keeping crash-free sessions above 99.95%.",
+        "Raised FPS from 45 to 57+ through performance optimization.",
         "Rewrote legacy modules on Redux Toolkit + RTK Query + TypeScript with Feature-Sliced Design.",
         "React: internal CRM, product metrics and user analytics used to validate product hypotheses."
       ],

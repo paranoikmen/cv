@@ -32,7 +32,7 @@
   "profile": {
     "name": "Ivan Bogomolov",
     "location": "Da Nang, Vietnam · disponibile per lavoro da remoto, ibrido e trasferimento",
-    "summary": "Frontend engineer con oltre 5 anni di esperienza nello sviluppo di app mobile e web con React Native, React e TypeScript. Ho pubblicato app assicurative con oltre 50k utenti su App Store, Google Play, AppGallery e RuStore, ho migrato un codice legacy da React Native 0.64 a 0.77 con la New Architecture e ho scritto moduli nativi per i pagamenti. Oggi sviluppo prodotti IoT."
+    "summary": "Frontend engineer con oltre 5 anni di esperienza nello sviluppo di app mobile e web con React Native, React e TypeScript. Ho pubblicato app assicurative con oltre 50k utenti su App Store, Google Play, AppGallery e RuStore, ho migrato un codice legacy da React Native 0.64 a 0.77 con la New Architecture (avvio a freddo più rapido del 30–35%, FPS da 45 a 57+, oltre il 99,95% di sessioni senza crash) e ho scritto moduli nativi per i pagamenti. Oggi sviluppo prodotti IoT."
   },
   "experience": [
     {
@@ -41,7 +41,7 @@
       "summary": "Due app mobili per dispositivi connessi, sviluppate da zero: un’app per videocamere smart e un’app di tracciamento dell’attrezzatura sportiva con tag Bluetooth.",
       "highlights": [
         "Sviluppato entrambe le app dal primo commit con React Native bare (0.84+, New Architecture) e TypeScript.",
-        "Configurazione dei dispositivi via Bluetooth LE e Wi-Fi; video live ed eventi in tempo reale tramite Server-Sent Events.",
+        "Configurazione e abbinamento dei dispositivi via Bluetooth LE e Wi-Fi, con un tasso di connessione riuscita portato al 95%; video live ed eventi in tempo reale tramite Server-Sent Events.",
         "Geolocalizzazione, mappe e tracciamento in background dei tag BLE.",
         "Notifiche push (Firebase Cloud Messaging), accesso con Apple / Google e con codice monouso.",
         "Architettura Feature-Sliced Design; UI kit su Tamagui dai mockup Figma, documentato in Storybook; stato con Zustand + MMKV.",
@@ -53,11 +53,12 @@
       "location": "Mosca",
       "summary": "Gruppo assicurativo. Due app mobile — per i clienti e per gli agenti assicurativi (oltre 50k utenti) — e un CRM interno.",
       "highlights": [
-        "Aggiornato entrambe le app da React Native 0.64 a 0.77 e attivato la New Architecture.",
+        "Aggiornato entrambe le app da React Native 0.64 a 0.77 e attivato la New Architecture (Fabric, TurboModules): avvio a freddo più rapido del 30–35%, rendering di liste e UI più veloce di oltre il 30%, chiamate ai moduli nativi fino a 50× più veloci.",
         "Realizzato i pagamenti SBP (il sistema russo di pagamenti istantanei) tramite un modulo nativo personalizzato per Android e iOS.",
         "Implementato una chat in tempo reale su WebSocket, le notifiche push e l'accesso biometrico (Face ID / Touch ID).",
-        "Realizzato gli aggiornamenti in-app senza librerie di terze parti.",
-        "Pubblicato le app su App Store / TestFlight, Google Play, AppGallery e RuStore; monitorato i crash con Sentry.",
+        "Realizzato gli aggiornamenti in-app senza librerie di terze parti: più utenti sull'ultima versione e un'adozione più rapida dei nuovi rilasci.",
+        "Pubblicato le app su App Store / TestFlight, Google Play, AppGallery e RuStore; monitorato e corretto i crash con Sentry, con oltre il 99,95% di sessioni senza crash.",
+        "Ottimizzato le prestazioni: FPS da 45 a 57+.",
         "Migrato il codice legacy a Redux Toolkit + RTK Query + TypeScript e Feature-Sliced Design.",
         "React: CRM interno, metriche di prodotto, analisi degli utenti e verifica di ipotesi."
       ]

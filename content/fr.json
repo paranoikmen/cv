@@ -32,7 +32,7 @@
   "profile": {
     "name": "Ivan Bogomolov",
     "location": "Da Nang, Viêt Nam · ouvert au télétravail, à l'hybride et à la relocalisation",
-    "summary": "Développeur frontend avec plus de 5 ans d'expérience dans la création d'applications mobiles et web avec React Native, React et TypeScript. J'ai publié des applications d'assurance comptant plus de 50 000 utilisateurs sur l'App Store, Google Play, AppGallery et RuStore, migré une base de code legacy de React Native 0.64 vers 0.77 avec la New Architecture et développé des modules natifs pour les paiements. Je travaille aujourd'hui sur des produits IoT."
+    "summary": "Développeur frontend avec plus de 5 ans d'expérience dans la création d'applications mobiles et web avec React Native, React et TypeScript. J'ai publié des applications d'assurance comptant plus de 50 000 utilisateurs sur l'App Store, Google Play, AppGallery et RuStore, migré une base de code legacy de React Native 0.64 vers 0.77 avec la New Architecture (démarrage à froid 30–35 % plus rapide, FPS de 45 à 57+, plus de 99,95 % de sessions sans crash) et développé des modules natifs pour les paiements. Je travaille aujourd'hui sur des produits IoT."
   },
   "experience": [
     {
@@ -41,7 +41,7 @@
       "summary": "Deux applications mobiles pour objets connectés, créées de zéro : une application pour caméras intelligentes et une application de suivi d’équipement sportif par balises Bluetooth.",
       "highlights": [
         "Développé les deux applications dès le premier commit en React Native « bare » (0.84+, New Architecture) et TypeScript.",
-        "Appairage des appareils via Bluetooth LE et Wi-Fi ; vidéo en direct et événements en temps réel via Server-Sent Events.",
+        "Connexion et appairage des appareils via Bluetooth LE et Wi-Fi, avec un taux de connexion réussie porté à 95 % ; vidéo en direct et événements en temps réel via Server-Sent Events.",
         "Géolocalisation, cartes et suivi en arrière-plan des balises BLE.",
         "Notifications push (Firebase Cloud Messaging), connexion avec Apple / Google et par code à usage unique.",
         "Architecture Feature-Sliced Design ; UI kit sur Tamagui d’après les maquettes Figma, documenté dans Storybook ; état avec Zustand + MMKV.",
@@ -53,11 +53,12 @@
       "location": "Moscou",
       "summary": "Groupe d'assurance. Deux applications mobiles — pour les clients et pour les agents d'assurance (plus de 50 000 utilisateurs) — ainsi qu'un CRM interne.",
       "highlights": [
-        "Mise à jour des deux applications de React Native 0.64 vers 0.77 et activation de la New Architecture.",
+        "Mise à jour des deux applications de React Native 0.64 vers 0.77 et activation de la New Architecture (Fabric, TurboModules) : démarrage à froid 30–35 % plus rapide, rendu des listes et de l'interface plus de 30 % plus rapide, appels aux modules natifs jusqu'à 50× plus rapides.",
         "Paiements via SBP (système russe de paiements rapides) grâce à un module natif maison pour Android et iOS.",
         "Chat en temps réel sur WebSocket, notifications push et connexion biométrique (Face ID / Touch ID).",
-        "Mises à jour intégrées à l'application, sans bibliothèque tierce.",
-        "Publication sur l'App Store / TestFlight, Google Play, AppGallery et RuStore ; suivi des crashs avec Sentry.",
+        "Mises à jour intégrées à l'application, sans bibliothèque tierce : davantage d'utilisateurs sur la dernière version et une adoption plus rapide des nouvelles versions.",
+        "Publication sur l'App Store / TestFlight, Google Play, AppGallery et RuStore ; suivi et correction des crashs avec Sentry — plus de 99,95 % de sessions sans crash.",
+        "Optimisation des performances : FPS passé de 45 à 57+.",
         "Migration du code legacy vers Redux Toolkit + RTK Query + TypeScript et Feature-Sliced Design.",
         "React : CRM interne, métriques produit, analytique utilisateurs et tests d'hypothèses."
       ]

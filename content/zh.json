@@ -32,7 +32,7 @@
   "profile": {
     "name": "Ivan Bogomolov",
     "location": "越南岘港 · 可远程、混合办公或搬迁",
-    "summary": "前端工程师，拥有 5 年以上使用 React Native、React 和 TypeScript 开发移动端与 Web 应用的经验。曾将用户超过 5 万的保险类应用发布到 App Store、Google Play、AppGallery 和 RuStore，将遗留的 React Native 0.64 代码库升级到 0.77 并启用新架构，还编写过用于支付的原生模块。目前从事 IoT 产品开发。"
+    "summary": "前端工程师，拥有 5 年以上使用 React Native、React 和 TypeScript 开发移动端与 Web 应用的经验。曾将用户超过 5 万的保险类应用发布到 App Store、Google Play、AppGallery 和 RuStore，将遗留的 React Native 0.64 代码库升级到 0.77 并启用新架构（冷启动提速 30–35%，FPS 从 45 提升到 57+，无崩溃会话率超过 99.95%），还编写过用于支付的原生模块。目前从事 IoT 产品开发。"
   },
   "experience": [
     {
@@ -41,7 +41,7 @@
       "summary": "从零开发两款面向智能设备的移动应用：智能摄像头配套应用，以及基于蓝牙标签的运动装备追踪应用。",
       "highlights": [
         "从第一次提交起使用原生 React Native（0.84+，新架构）和 TypeScript 开发两款应用。",
-        "通过 Bluetooth LE 和 Wi-Fi 进行设备配网；通过 Server-Sent Events 实现实时视频和设备事件推送。",
+        "通过 Bluetooth LE 和 Wi-Fi 进行设备配网与配对，连接成功率提升至 95%；通过 Server-Sent Events 实现实时视频和设备事件推送。",
         "地理定位、地图以及 BLE 标签的后台追踪。",
         "推送通知（Firebase Cloud Messaging）、Apple / Google 登录及一次性验证码登录。",
         "采用 Feature-Sliced Design 架构；基于 Figma 设计稿用 Tamagui 构建 UI 组件库，并在 Storybook 中维护文档；状态管理使用 Zustand + MMKV。",
@@ -53,11 +53,12 @@
       "location": "莫斯科",
       "summary": "保险集团。负责两款移动应用（面向客户和保险代理人，用户超过 5 万）以及内部 CRM。",
       "highlights": [
-        "将两款应用从 React Native 0.64 升级到 0.77，并启用新架构。",
+        "将两款应用从 React Native 0.64 升级到 0.77，并启用新架构（Fabric、TurboModules）：冷启动提速 30–35%，列表与 UI 渲染提速 30% 以上，原生模块调用最高提速 50 倍。",
         "通过自研的 Android 和 iOS 原生模块实现 SBP（俄罗斯快速支付系统）支付。",
         "实现基于 WebSocket 的实时聊天、推送通知以及生物识别登录（Face ID / Touch ID）。",
-        "在不依赖第三方库的情况下实现应用内更新。",
-        "将应用发布到 App Store / TestFlight、Google Play、AppGallery 和 RuStore；使用 Sentry 监控崩溃。",
+        "在不依赖第三方库的情况下实现应用内更新：使用最新版本的用户比例上升，新版本普及更快。",
+        "将应用发布到 App Store / TestFlight、Google Play、AppGallery 和 RuStore；使用 Sentry 监控并修复崩溃，无崩溃会话率超过 99.95%。",
+        "性能优化：FPS 从 45 提升到 57+。",
         "将遗留代码迁移到 Redux Toolkit + RTK Query + TypeScript，并采用 Feature-Sliced Design。",
         "React：内部 CRM、产品指标、用户数据分析和假设验证。"
       ]

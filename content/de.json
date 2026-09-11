@@ -32,7 +32,7 @@
   "profile": {
     "name": "Ivan Bogomolov",
     "location": "Da Nang, Vietnam · offen für Remote, Hybrid und Umzug",
-    "summary": "Frontend-Entwickler mit über 5 Jahren Erfahrung in der Entwicklung mobiler und Web-Apps mit React Native, React und TypeScript. Ich habe Versicherungs-Apps mit über 50.000 Nutzern im App Store, bei Google Play, AppGallery und RuStore veröffentlicht, eine Legacy-Codebasis von React Native 0.64 auf 0.77 mit der New Architecture migriert und native Module für Zahlungen geschrieben. Aktuell entwickle ich IoT-Produkte."
+    "summary": "Frontend-Entwickler mit über 5 Jahren Erfahrung in der Entwicklung mobiler und Web-Apps mit React Native, React und TypeScript. Ich habe Versicherungs-Apps mit über 50.000 Nutzern im App Store, bei Google Play, AppGallery und RuStore veröffentlicht, eine Legacy-Codebasis von React Native 0.64 auf 0.77 mit der New Architecture migriert (30–35 % schnellerer Kaltstart, FPS von 45 auf 57+, über 99,95 % absturzfreie Sitzungen) und native Module für Zahlungen geschrieben. Aktuell entwickle ich IoT-Produkte."
   },
   "experience": [
     {
@@ -41,7 +41,7 @@
       "summary": "Zwei mobile Apps für vernetzte Geräte, von Grund auf entwickelt: eine Companion-App für smarte Kameras und eine Bluetooth-Tracker-App für Sportausrüstung.",
       "highlights": [
         "Beide Apps ab dem ersten Commit mit Bare React Native (0.84+, New Architecture) und TypeScript entwickelt.",
-        "Geräte-Onboarding über Bluetooth LE und WLAN; Live-Video und Geräteereignisse in Echtzeit über Server-Sent Events.",
+        "Geräte-Onboarding und Kopplung über Bluetooth LE und WLAN mit einer Verbindungserfolgsquote von bis zu 95 %; Live-Video und Geräteereignisse in Echtzeit über Server-Sent Events.",
         "Geolokalisierung, Karten und Hintergrund-Tracking von BLE-Tags.",
         "Push-Benachrichtigungen (Firebase Cloud Messaging), Anmeldung mit Apple / Google und per Einmalcode.",
         "Architektur nach Feature-Sliced Design; UI-Kit auf Tamagui nach Figma-Entwürfen, dokumentiert in Storybook; State mit Zustand + MMKV.",
@@ -53,11 +53,12 @@
       "location": "Moskau",
       "summary": "Versicherungsgruppe. Zwei mobile Apps — für Kunden und für Versicherungsagenten (über 50.000 Nutzer) — sowie ein internes CRM.",
       "highlights": [
-        "Beide Apps von React Native 0.64 auf 0.77 aktualisiert und die New Architecture aktiviert.",
+        "Beide Apps von React Native 0.64 auf 0.77 aktualisiert und die New Architecture (Fabric, TurboModules) aktiviert: 30–35 % schnellerer Kaltstart, über 30 % schnelleres Rendering von Listen und UI, bis zu 50× schnellere Aufrufe nativer Module.",
         "Zahlungen über SBP (russisches Schnellzahlungssystem) mit einem eigenen nativen Modul für Android und iOS umgesetzt.",
         "Echtzeit-Chat über WebSocket, Push-Benachrichtigungen und biometrischen Login (Face ID / Touch ID) implementiert.",
-        "In-App-Updates ohne Drittanbieter-Bibliotheken entwickelt.",
-        "Apps im App Store / TestFlight, bei Google Play, AppGallery und RuStore veröffentlicht; Abstürze mit Sentry überwacht.",
+        "In-App-Updates ohne Drittanbieter-Bibliotheken entwickelt — mehr Nutzer auf der neuesten Version, schnellere Verbreitung neuer Releases.",
+        "Apps im App Store / TestFlight, bei Google Play, AppGallery und RuStore veröffentlicht; Abstürze mit Sentry überwacht und behoben — über 99,95 % absturzfreie Sitzungen.",
+        "Performance optimiert: FPS von 45 auf 57+ gesteigert.",
         "Legacy-Code auf Redux Toolkit + RTK Query + TypeScript und Feature-Sliced Design umgestellt.",
         "React: internes CRM, Produktmetriken, Nutzeranalysen und Hypothesentests."
       ]

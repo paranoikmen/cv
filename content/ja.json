@@ -32,7 +32,7 @@
   "profile": {
     "name": "Ivan Bogomolov",
     "location": "ベトナム・ダナン · リモート、ハイブリッド、転居可",
-    "summary": "React Native、React、TypeScript によるモバイル・Web アプリ開発で 5 年以上の経験を持つフロントエンドエンジニアです。ユーザー数 5 万人以上の保険アプリを App Store、Google Play、AppGallery、RuStore にリリースし、レガシーな React Native 0.64 のコードベースを 0.77 に移行して New Architecture を有効化しました。決済用のネイティブモジュールも開発しています。現在は IoT 製品を開発しています。"
+    "summary": "React Native、React、TypeScript によるモバイル・Web アプリ開発で 5 年以上の経験を持つフロントエンドエンジニアです。ユーザー数 5 万人以上の保険アプリを App Store、Google Play、AppGallery、RuStore にリリースし、レガシーな React Native 0.64 のコードベースを 0.77 に移行して New Architecture を有効化しました（コールドスタート 30〜35% 短縮、FPS 45 → 57+、クラッシュフリーセッション 99.95% 超）。決済用のネイティブモジュールも開発しています。現在は IoT 製品を開発しています。"
   },
   "experience": [
     {
@@ -41,7 +41,7 @@
       "summary": "コネクテッドデバイス向けのモバイルアプリ 2 本をゼロから開発：スマートカメラ用のコンパニオンアプリと、Bluetooth タグでスポーツ用品を追跡するアプリ。",
       "highlights": [
         "最初のコミットから、素の React Native（0.84+、New Architecture）と TypeScript で両アプリを開発。",
-        "Bluetooth LE と Wi-Fi によるデバイスのセットアップ、Server-Sent Events によるライブ映像とリアルタイムのデバイスイベント。",
+        "Bluetooth LE と Wi-Fi によるデバイスのセットアップとペアリング（接続成功率を 95% まで向上）、Server-Sent Events によるライブ映像とリアルタイムのデバイスイベント。",
         "位置情報、地図、BLE タグのバックグラウンド追跡。",
         "プッシュ通知（Firebase Cloud Messaging）、Apple / Google サインインとワンタイムコードによるログイン。",
         "Feature-Sliced Design アーキテクチャ。Figma のデザインをもとに Tamagui で UI キットを構築し Storybook でドキュメント化。状態管理は Zustand + MMKV。",
@@ -53,11 +53,12 @@
       "location": "モスクワ",
       "summary": "保険グループ。顧客向けと保険代理店向けの 2 つのモバイルアプリ（ユーザー数 5 万人以上）と社内 CRM を担当。",
       "highlights": [
-        "両アプリを React Native 0.64 から 0.77 にアップグレードし、New Architecture を有効化。",
+        "両アプリを React Native 0.64 から 0.77 にアップグレードし、New Architecture（Fabric、TurboModules）を有効化：コールドスタート 30〜35% 短縮、リスト・UI の描画 30% 以上高速化、ネイティブモジュール呼び出し最大 50 倍高速化。",
         "Android / iOS 向けの独自ネイティブモジュールで SBP（ロシアの即時決済システム）による支払いを実装。",
         "WebSocket によるリアルタイムチャット、プッシュ通知、生体認証ログイン（Face ID / Touch ID）を実装。",
-        "サードパーティライブラリを使わずにアプリ内アップデートを実装。",
-        "App Store / TestFlight、Google Play、AppGallery、RuStore へのリリースを担当し、Sentry でクラッシュを監視。",
+        "サードパーティライブラリを使わずにアプリ内アップデートを実装し、最新バージョンの利用率向上とリリースの早期普及を実現。",
+        "App Store / TestFlight、Google Play、AppGallery、RuStore へのリリースを担当し、Sentry でクラッシュを監視・修正し、クラッシュフリーセッション 99.95% 超を維持。",
+        "パフォーマンス最適化により FPS を 45 から 57+ に向上。",
         "レガシーコードを Redux Toolkit + RTK Query + TypeScript と Feature-Sliced Design に移行。",
         "React：社内 CRM、プロダクト指標、ユーザー分析、仮説検証。"
       ]
