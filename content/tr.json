@@ -32,35 +32,35 @@
   "profile": {
     "name": "Ivan Bogomolov",
     "location": "Da Nang, Vietnam · uzaktan, hibrit çalışmaya ve taşınmaya açığım",
-    "summary": "React Native, React ve TypeScript ile mobil ve web uygulamaları geliştirmede 5+ yıllık deneyime sahip frontend mühendisiyim. 50 binden fazla kullanıcılı sigorta uygulamalarını App Store, Google Play, AppGallery ve RuStore'da yayınladım, eski bir React Native 0.64 kod tabanını New Architecture ile 0.77'ye taşıdım (soğuk başlatma %30–35 daha hızlı, FPS 45'ten 57+'ya, çökmesiz oturum oranı %99,95'in üzerinde) ve ödemeler için native modüller yazdım. Şu anda IoT ürünleri geliştiriyorum."
+    "summary": "React Native, React ve TypeScript ile 5+ yıldır mobil ve web ürünleri yayına alan bir frontend mühendisiyim. 4 uygulama mağazasında yayında olan, 50 binden fazla kullanıcılı sigorta uygulamalarını geliştiriyorum; bu uygulamaları React Native'de 13 sürüm ileri taşıyarak 0.77'ye ve New Architecture'a geçirdim — soğuk başlatma %30–35 daha hızlı, FPS 45'ten 57+'ya, çökmesiz oturum oranı %99,95'in üzerinde — ve native ödeme modülleri geliştirdim. Mevcut sözleşmemde iki IoT uygulamasını 6 ayda boş bir repodan ~70 ekrana ulaştırdım."
   },
   "experience": [
     {
       "company": "AJProTech (sözleşmeli)",
       "role": "React Native Geliştirici",
-      "summary": "Bağlantılı cihazlar için sıfırdan geliştirilen iki mobil uygulama: akıllı kameralar için bir yardımcı uygulama ve Bluetooth etiketli spor ekipmanı takip uygulaması.",
+      "summary": "Bağlantılı cihazlar için ana geliştirici olarak sıfırdan geliştirdiğim iki mobil uygulama: akıllı kameralar için bir yardımcı uygulama ve Bluetooth etiketli spor ekipmanı takip uygulaması.",
       "highlights": [
-        "İki uygulamayı da ilk commit’ten itibaren bare React Native (0.84+, New Architecture) ve TypeScript ile geliştirdim.",
-        "Bluetooth LE ve Wi-Fi ile cihaz kurulumu ve eşleştirme, bağlantı başarı oranı %95'e yükseltildi; Server-Sent Events ile canlı video ve gerçek zamanlı cihaz olayları.",
-        "Konum belirleme, haritalar ve BLE etiketlerinin arka planda takibi.",
-        "Push bildirimleri (Firebase Cloud Messaging), Apple / Google ile ve tek kullanımlık kodla giriş.",
-        "Feature-Sliced Design mimarisi; Figma tasarımlarından Tamagui üzerinde UI kit, Storybook ile belgelenmiş; durum yönetimi Zustand + MMKV.",
-        "Claude Code ile yapay zekâ destekli geliştirme."
+        "İki uygulamayı da 6 ayda boş bir repodan ~70 ekrana ulaştırdım (250+ commit); bare React Native 0.84+, New Architecture ve TypeScript.",
+        "Feature-Sliced mimarisini ve Tamagui üzerinde bir UI kit (Figma tasarımlarından ~40 bileşen) tasarladım; ikinci uygulama aynı temel üzerine kuruldu.",
+        "Bluetooth LE ve Wi-Fi ile cihaz kurulumu ve eşleştirme, bağlantı başarı oranı %95'e yükseltildi: firmware ekibiyle BLE mesaj formatını belirledim ve onlar için entegrasyon kılavuzunu yazdım.",
+        "Server-Sent Events ile canlı video ve gerçek zamanlı cihaz olayları; Firebase Cloud Messaging ile push bildirimleri.",
+        "Konum, harita ve unutulan eşya uyarılarıyla BLE etiketlerinin arka planda takibi.",
+        "Apple / Google ile ve tek kullanımlık kodla giriş; durum yönetimi Zustand + MMKV; Claude Code ile yapay zekâ destekli iş akışı."
       ]
     },
     {
       "role": "React Native / React Geliştirici",
       "location": "Moskova",
-      "summary": "Sigorta grubu. Müşteriler ve sigorta acenteleri için iki mobil uygulama (50 binden fazla kullanıcı) ve şirket içi bir CRM.",
+      "summary": "Sigorta grubu. Sigortalılar ve sigorta acenteleri için iki mobil uygulama (50 binden fazla kullanıcı) ve şirket içi bir CRM.",
       "highlights": [
-        "İki uygulamayı da React Native 0.64'ten 0.77'ye yükselttim ve New Architecture'ı (Fabric, TurboModules) etkinleştirdim: soğuk başlatma %30–35 daha hızlı, liste ve arayüz render'ı %30'dan fazla hızlandı, native modül çağrıları 50 kata kadar hızlandı.",
-        "Android ve iOS için özel bir native modülle SBP (Rusya'nın anlık ödeme sistemi) ödemelerini geliştirdim.",
-        "WebSocket üzerinden gerçek zamanlı sohbet, push bildirimleri ve biyometrik giriş (Face ID / Touch ID) ekledim.",
-        "Üçüncü taraf kütüphane kullanmadan uygulama içi güncelleme geliştirdim: güncel sürümü kullananların oranı arttı, yeni sürümler daha hızlı benimsendi.",
-        "Uygulamaları App Store / TestFlight, Google Play, AppGallery ve RuStore'da yayınladım; çökmeleri Sentry ile izleyip giderdim; çökmesiz oturum oranı %99,95'in üzerinde.",
+        "İki uygulamayı da React Native'de 13 sürüm ileri taşıdım — 0.64'ten 0.77'ye — ve New Architecture'a (Fabric, TurboModules) geçirdim: soğuk başlatma %30–35 daha hızlı, liste ve arayüz render'ı %30'dan fazla hızlandı, native modül çağrıları 50 kata kadar hızlandı.",
+        "Android ve iOS için özel bir native modülle SBP (Rusya'nın anlık ödeme sistemi) ödemelerini devreye aldım — uygulama içinde yeni bir ödeme kanalı.",
+        "Üçüncü taraf kütüphane kullanmadan uygulama içi güncelleme akışı geliştirdim: kullanıcılar uygulamadan çıkmadan yeni sürüme geçiyor — güncel sürümü kullananların oranı arttı, yeni sürümler daha hızlı benimsendi.",
+        "WebSocket üzerinden gerçek zamanlı sohbet, push bildirimleri ve biyometrik giriş (Face ID / Touch ID) yayına aldım.",
+        "4 mağazada yayın — App Store, Google Play, AppGallery ve RuStore; canlı ortamdaki çökmeleri Sentry ile izleyip giderdim, çökmesiz oturum oranı %99,95'in üzerinde.",
         "Performans optimizasyonu: FPS 45'ten 57+'ya çıktı.",
-        "Eski kodu Redux Toolkit + RTK Query + TypeScript ve Feature-Sliced Design'a taşıdım.",
-        "React: şirket içi CRM, ürün metrikleri, kullanıcı analitiği ve hipotez testleri."
+        "Eski modülleri Feature-Sliced Design ile Redux Toolkit + RTK Query + TypeScript üzerinde yeniden yazdım.",
+        "React: şirket içi CRM, ürün hipotezlerini doğrulamak için ürün metrikleri ve kullanıcı analitiği."
       ]
     },
     {
@@ -69,30 +69,30 @@
       "location": "Moskova",
       "summary": "Bankanın şirket içi kullanıcıları için kurumsal ürün.",
       "highlights": [
-        "Uygulama mimarisini React + Redux Toolkit + TypeScript üzerine tasarladım.",
-        "Apollo Client ile GraphQL API üzerinde çalıştım.",
-        "Performansı ve tarayıcılar arası uyumluluğu iyileştirdim."
+        "React + Redux Toolkit + TypeScript mimarisi üzerinde özellikler geliştirdim.",
+        "GraphQL API'sini Apollo Client ile entegre ettim.",
+        "Render performansını optimize ettim ve tarayıcılar arası sorunları giderdim."
       ]
     },
     {
       "role": "Frontend Geliştirici",
-      "summary": "Dil öğrenme platformu.",
+      "summary": "Milyonlarca kullanıcıya sahip dil öğrenme servisi.",
       "highlights": [
-        "Sitenin ana sayfasını yeni tasarıma göre piksel piksel yeniden yaptım.",
-        "Yeni tasarım sistemi için ayrı bir npm paketi olarak UI kit oluşturdum (Ant Design + TypeScript).",
-        "Sitedeki eğitici oyunların bakımını yaptım; çapraz kod incelemelerine ve yeni uygulama mimarisinin tasarımına katıldım."
+        "Sitenin giriş noktası olan ana sayfayı yeni tasarıma piksel piksel uygun şekilde yeniden yaptım.",
+        "Yeni tasarım sisteminin UI kit'ini bağımsız bir npm paketi olarak oluşturdum (Ant Design + TypeScript).",
+        "Yeni uygulama mimarisinin (Next.js + MobX) tasarımına katkı verdim, çapraz code review yaptım ve sitedeki öğrenme oyunlarının bakımını üstlendim."
       ]
     },
     {
       "company": "I-Tech Labs",
       "role": "Frontend Geliştirici",
       "location": "Volgograd",
-      "summary": "Dış kaynak ve outstaff: müşteriler için React ve React Native uygulamaları, yeni özelliklerden tam desteğe kadar.",
+      "summary": "Outsourcing ve outstaffing: bir yılda 8 müşteri projesi — 3 React Native uygulaması ve 5 web uygulaması.",
       "highlights": [
+        "Mafya tarzı çok oyunculu bir oyunu uçtan uca geliştirdim: mimari, drag-and-drop animasyonları, REST üzerinde MVP, ardından gerçek zamanlı oyun için WebSocket'e geçiş.",
         "Analitik uygulaması (React Native): SVG grafikler (pasta, çubuk, çizgi, Gantt) ve haritalar (Mapbox, OpenStreetMap); memoization ve class bileşenlerden hook'lara geçişle hızlandırdım.",
-        "Sıfırdan geliştirilen «Mafia» tarzı çok oyunculu oyun: mimari, sürükle-bırak animasyonları, önce REST üzerinde MVP, ardından WebSocket'e geçiş.",
-        "Otel misafirleri için uygulama (React Native, Redux): yeni ekranlar ve hata düzeltmeleri.",
-        "Web: eğitim platformu (Redux'ı ekledim), Postman benzeri API test aracı, otel CRM'i, doküman yönetimi ve uçak sigortası siteleri."
+        "Bir eğitim platformuna Redux ekleyip yeniden yapılandırdım; bir doküman yönetim sistemine TypeScript tiplemesi ekledim.",
+        "Ayrıca: otel misafir uygulaması (React Native), Postman benzeri API test aracı, otel CRM'i ve bir uçak sigortası web sitesi."
       ]
     }
   ],

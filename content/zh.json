@@ -32,35 +32,35 @@
   "profile": {
     "name": "Ivan Bogomolov",
     "location": "越南岘港 · 可远程、混合办公或搬迁",
-    "summary": "前端工程师，拥有 5 年以上使用 React Native、React 和 TypeScript 开发移动端与 Web 应用的经验。曾将用户超过 5 万的保险类应用发布到 App Store、Google Play、AppGallery 和 RuStore，将遗留的 React Native 0.64 代码库升级到 0.77 并启用新架构（冷启动提速 30–35%，FPS 从 45 提升到 57+，无崩溃会话率超过 99.95%），还编写过用于支付的原生模块。目前从事 IoT 产品开发。"
+    "summary": "前端工程师，拥有 5 年以上使用 React Native、React 和 TypeScript 交付移动端与 Web 产品的经验。负责维护用户超过 5 万、上架 4 个应用商店的保险类应用，将其跨越 13 个 React Native 版本升级到 0.77 并迁移到新架构（冷启动提速 30–35%，FPS 从 45 提升到 57+，无崩溃会话率超过 99.95%），并开发了原生支付模块。在当前的合同项目中，6 个月内将两款 IoT 应用从空仓库做到约 70 个页面。"
   },
   "experience": [
     {
       "company": "AJProTech（合同制）",
       "role": "React Native 工程师",
-      "summary": "从零开发两款面向智能设备的移动应用：智能摄像头配套应用，以及基于蓝牙标签的运动装备追踪应用。",
+      "summary": "作为主力开发者，从零开发两款面向智能设备的移动应用：智能摄像头配套应用，以及基于蓝牙标签的运动装备追踪应用。",
       "highlights": [
-        "从第一次提交起使用原生 React Native（0.84+，新架构）和 TypeScript 开发两款应用。",
-        "通过 Bluetooth LE 和 Wi-Fi 进行设备配网与配对，连接成功率提升至 95%；通过 Server-Sent Events 实现实时视频和设备事件推送。",
-        "地理定位、地图以及 BLE 标签的后台追踪。",
-        "推送通知（Firebase Cloud Messaging）、Apple / Google 登录及一次性验证码登录。",
-        "采用 Feature-Sliced Design 架构；基于 Figma 设计稿用 Tamagui 构建 UI 组件库，并在 Storybook 中维护文档；状态管理使用 Zustand + MMKV。",
-        "使用 Claude Code 进行 AI 辅助开发。"
+        "6 个月内将两款应用从空仓库做到约 70 个页面（250+ 次提交），基于原生 React Native 0.84+、新架构和 TypeScript。",
+        "设计了 Feature-Sliced 架构和基于 Tamagui 的 UI 组件库（约 40 个组件，依据 Figma 设计稿实现）；第二款应用复用了同一套基础。",
+        "通过 Bluetooth LE 和 Wi-Fi 进行设备配网与配对，连接成功率提升至 95%：与固件团队共同制定 BLE 消息格式，并为其编写集成指南。",
+        "通过 Server-Sent Events 实现实时视频和设备事件推送；通过 Firebase Cloud Messaging 推送通知。",
+        "BLE 标签的后台追踪，结合地理定位、地图和物品遗落提醒。",
+        "Apple / Google 登录及一次性验证码登录；状态管理使用 Zustand + MMKV；使用 Claude Code 进行 AI 辅助开发。"
       ]
     },
     {
       "role": "React Native / React 开发工程师",
       "location": "莫斯科",
-      "summary": "保险集团。负责两款移动应用（面向客户和保险代理人，用户超过 5 万）以及内部 CRM。",
+      "summary": "保险集团。负责两款移动应用（面向投保人和保险代理人，用户超过 5 万）以及内部 CRM。",
       "highlights": [
-        "将两款应用从 React Native 0.64 升级到 0.77，并启用新架构（Fabric、TurboModules）：冷启动提速 30–35%，列表与 UI 渲染提速 30% 以上，原生模块调用最高提速 50 倍。",
-        "通过自研的 Android 和 iOS 原生模块实现 SBP（俄罗斯快速支付系统）支付。",
-        "实现基于 WebSocket 的实时聊天、推送通知以及生物识别登录（Face ID / Touch ID）。",
-        "在不依赖第三方库的情况下实现应用内更新：使用最新版本的用户比例上升，新版本普及更快。",
-        "将应用发布到 App Store / TestFlight、Google Play、AppGallery 和 RuStore；使用 Sentry 监控并修复崩溃，无崩溃会话率超过 99.95%。",
+        "将两款应用跨越 13 个 React Native 版本，从 0.64 升级到 0.77，并迁移到新架构（Fabric、TurboModules）：冷启动提速 30–35%，列表与 UI 渲染提速 30% 以上，原生模块调用最高提速 50 倍。",
+        "通过自研的 Android 和 iOS 原生模块上线 SBP（俄罗斯快速支付系统）支付，为应用新增了支付渠道。",
+        "在不依赖第三方库的情况下实现应用内更新流程，用户无需离开应用即可升级到新版本：使用最新版本的用户比例上升，新版本普及更快。",
+        "上线基于 WebSocket 的实时聊天、推送通知以及生物识别登录（Face ID / Touch ID）。",
+        "发布到 4 个应用商店：App Store、Google Play、AppGallery 和 RuStore；使用 Sentry 追踪并修复线上崩溃，无崩溃会话率超过 99.95%。",
         "性能优化：FPS 从 45 提升到 57+。",
-        "将遗留代码迁移到 Redux Toolkit + RTK Query + TypeScript，并采用 Feature-Sliced Design。",
-        "React：内部 CRM、产品指标、用户数据分析和假设验证。"
+        "基于 Redux Toolkit + RTK Query + TypeScript，按 Feature-Sliced Design 重写遗留模块。",
+        "React：内部 CRM、产品指标和用户数据分析，用于验证产品假设。"
       ]
     },
     {
@@ -69,30 +69,30 @@
       "location": "莫斯科",
       "summary": "面向银行内部用户的企业级产品。",
       "highlights": [
-        "基于 React + Redux Toolkit + TypeScript 设计应用架构。",
+        "基于 React + Redux Toolkit + TypeScript 架构开发功能。",
         "通过 Apollo Client 对接 GraphQL API。",
-        "优化性能和跨浏览器兼容性。"
+        "优化渲染性能，修复跨浏览器兼容性问题。"
       ]
     },
     {
       "role": "前端开发工程师",
-      "summary": "语言学习平台。",
+      "summary": "拥有数百万用户的语言学习服务。",
       "highlights": [
-        "按新设计像素级还原并重做网站首页。",
-        "为新设计系统开发 UI 组件库，并作为独立 npm 包发布（Ant Design + TypeScript）。",
-        "维护站内学习游戏；参与交叉代码评审和新应用架构设计。"
+        "按照新设计像素级重做网站的入口——首页。",
+        "将新设计系统的 UI 组件库打造为独立的 npm 包（Ant Design + TypeScript）。",
+        "参与设计新的应用架构（Next.js + MobX），进行交叉代码评审，并维护网站内的学习游戏。"
       ]
     },
     {
       "company": "I-Tech Labs",
       "role": "前端开发工程师",
       "location": "伏尔加格勒",
-      "summary": "外包与外派：为客户开发 React 和 React Native 应用，从新功能开发到全面维护。",
+      "summary": "外包与人员外派：一年内参与 8 个客户项目——3 个 React Native 应用和 5 个 Web 应用。",
       "highlights": [
-        "数据分析应用（React Native）：SVG 图表（饼图、柱状图、折线图、甘特图）和地图（Mapbox、OpenStreetMap）；通过 memo 优化以及从类组件迁移到 Hooks 提升性能。",
-        "从零开发类似“狼人杀”的多人游戏：架构设计、拖放动画，MVP 基于 REST，后迁移到 WebSocket。",
-        "酒店住客应用（React Native、Redux）：开发新页面并修复缺陷。",
-        "Web：教育平台（引入 Redux）、类似 Postman 的 API 测试工具、酒店 CRM、文档管理网站和飞机保险网站。"
+        "端到端开发一款类似“狼人杀”（Mafia）的多人游戏：架构设计、拖放动画、基于 REST 的 MVP，随后迁移到 WebSocket 以实现实时对战。",
+        "数据分析应用（React Native）：SVG 图表（饼图、柱状图、折线图、甘特图）和地图（Mapbox、OpenStreetMap）；通过 memoization 以及从类组件迁移到 Hooks 提升性能。",
+        "为一个教育平台引入 Redux 并完成重构；为一个文档管理系统补充 TypeScript 类型。",
+        "此外：酒店住客应用（React Native）、类似 Postman 的 API 测试工具、酒店 CRM 以及一个航空保险网站。"
       ]
     }
   ],

@@ -32,35 +32,35 @@
   "profile": {
     "name": "Ivan Bogomolov",
     "location": "ベトナム・ダナン · リモート、ハイブリッド、転居可",
-    "summary": "React Native、React、TypeScript によるモバイル・Web アプリ開発で 5 年以上の経験を持つフロントエンドエンジニアです。ユーザー数 5 万人以上の保険アプリを App Store、Google Play、AppGallery、RuStore にリリースし、レガシーな React Native 0.64 のコードベースを 0.77 に移行して New Architecture を有効化しました（コールドスタート 30〜35% 短縮、FPS 45 → 57+、クラッシュフリーセッション 99.95% 超）。決済用のネイティブモジュールも開発しています。現在は IoT 製品を開発しています。"
+    "summary": "React Native、React、TypeScript でモバイル・Web プロダクトを 5 年以上リリースしてきたフロントエンドエンジニアです。4 つのアプリストアで配信されているユーザー数 5 万人以上の保険アプリを担当し、React Native を 13 バージョン分アップグレードして 0.77 と New Architecture へ移行しました（コールドスタート 30〜35% 短縮、FPS 45 → 57+、クラッシュフリーセッション 99.95% 超）。決済用のネイティブモジュールも開発しています。現在の契約案件では、2 つの IoT アプリを空のリポジトリから 6 か月で約 70 画面まで開発しました。"
   },
   "experience": [
     {
       "company": "AJProTech（業務委託）",
       "role": "React Native エンジニア",
-      "summary": "コネクテッドデバイス向けのモバイルアプリ 2 本をゼロから開発：スマートカメラ用のコンパニオンアプリと、Bluetooth タグでスポーツ用品を追跡するアプリ。",
+      "summary": "コネクテッドデバイス向けのモバイルアプリ 2 本をメイン開発者としてゼロから開発：スマートカメラ用のコンパニオンアプリと、Bluetooth タグでスポーツ用品を追跡するアプリ。",
       "highlights": [
-        "最初のコミットから、素の React Native（0.84+、New Architecture）と TypeScript で両アプリを開発。",
-        "Bluetooth LE と Wi-Fi によるデバイスのセットアップとペアリング（接続成功率を 95% まで向上）、Server-Sent Events によるライブ映像とリアルタイムのデバイスイベント。",
-        "位置情報、地図、BLE タグのバックグラウンド追跡。",
-        "プッシュ通知（Firebase Cloud Messaging）、Apple / Google サインインとワンタイムコードによるログイン。",
-        "Feature-Sliced Design アーキテクチャ。Figma のデザインをもとに Tamagui で UI キットを構築し Storybook でドキュメント化。状態管理は Zustand + MMKV。",
-        "Claude Code を活用した AI 支援開発。"
+        "両アプリを空のリポジトリから 6 か月で約 70 画面まで開発（250 件以上のコミット）。素の React Native 0.84+、New Architecture、TypeScript を使用。",
+        "Feature-Sliced アーキテクチャと Tamagui ベースの UI キット（Figma のデザインをもとに約 40 コンポーネント）を設計。2 本目のアプリも同じ基盤の上に構築。",
+        "Bluetooth LE と Wi-Fi によるデバイスのセットアップとペアリング（接続成功率を 95% まで向上）：ファームウェアチームと BLE メッセージ形式を策定し、同チーム向けの統合ガイドを作成。",
+        "Server-Sent Events によるライブ映像とリアルタイムのデバイスイベント、Firebase Cloud Messaging によるプッシュ通知。",
+        "位置情報・地図・置き忘れアラートを備えた BLE タグのバックグラウンド追跡。",
+        "Apple / Google サインインとワンタイムコードによるログイン、Zustand + MMKV による状態管理、Claude Code を活用した AI 支援の開発フロー。"
       ]
     },
     {
       "role": "React Native / React エンジニア",
       "location": "モスクワ",
-      "summary": "保険グループ。顧客向けと保険代理店向けの 2 つのモバイルアプリ（ユーザー数 5 万人以上）と社内 CRM を担当。",
+      "summary": "保険グループ。契約者向けと保険代理店向けの 2 つのモバイルアプリ（ユーザー数 5 万人以上）と社内 CRM を担当。",
       "highlights": [
-        "両アプリを React Native 0.64 から 0.77 にアップグレードし、New Architecture（Fabric、TurboModules）を有効化：コールドスタート 30〜35% 短縮、リスト・UI の描画 30% 以上高速化、ネイティブモジュール呼び出し最大 50 倍高速化。",
-        "Android / iOS 向けの独自ネイティブモジュールで SBP（ロシアの即時決済システム）による支払いを実装。",
-        "WebSocket によるリアルタイムチャット、プッシュ通知、生体認証ログイン（Face ID / Touch ID）を実装。",
-        "サードパーティライブラリを使わずにアプリ内アップデートを実装し、最新バージョンの利用率向上とリリースの早期普及を実現。",
-        "App Store / TestFlight、Google Play、AppGallery、RuStore へのリリースを担当し、Sentry でクラッシュを監視・修正し、クラッシュフリーセッション 99.95% 超を維持。",
+        "両アプリの React Native を 0.64 から 0.77 へ 13 バージョン分アップグレードし、New Architecture（Fabric、TurboModules）へ移行：コールドスタート 30〜35% 短縮、リスト・UI の描画 30% 以上高速化、ネイティブモジュール呼び出し最大 50 倍高速化。",
+        "Android / iOS 向けの独自ネイティブモジュールで SBP（ロシアの即時決済システム）による支払いを導入し、アプリ内に新たな決済チャネルを追加。",
+        "サードパーティライブラリを使わずにアプリ内アップデートの仕組みを構築。ユーザーはアプリを離れずに新バージョンへ移行でき、最新バージョンの利用率向上とリリースの早期普及を実現。",
+        "WebSocket によるリアルタイムチャット、プッシュ通知、生体認証ログイン（Face ID / Touch ID）をリリース。",
+        "App Store、Google Play、AppGallery、RuStore の 4 ストアへリリース。Sentry で本番環境のクラッシュを追跡・修正し、クラッシュフリーセッション 99.95% 超を維持。",
         "パフォーマンス最適化により FPS を 45 から 57+ に向上。",
-        "レガシーコードを Redux Toolkit + RTK Query + TypeScript と Feature-Sliced Design に移行。",
-        "React：社内 CRM、プロダクト指標、ユーザー分析、仮説検証。"
+        "レガシーモジュールを Redux Toolkit + RTK Query + TypeScript と Feature-Sliced Design で書き直し。",
+        "React：社内 CRM、プロダクト指標、ユーザー分析によるプロダクト仮説の検証。"
       ]
     },
     {
@@ -69,30 +69,30 @@
       "location": "モスクワ",
       "summary": "銀行の社内ユーザー向けエンタープライズ製品。",
       "highlights": [
-        "React + Redux Toolkit + TypeScript でアプリのアーキテクチャを設計。",
-        "Apollo Client を通じて GraphQL API と連携。",
-        "パフォーマンスとクロスブラウザ互換性を改善。"
+        "React + Redux Toolkit + TypeScript のアーキテクチャ上で機能を開発。",
+        "Apollo Client で GraphQL API を統合。",
+        "描画パフォーマンスを最適化し、クロスブラウザの問題を修正。"
       ]
     },
     {
       "role": "フロントエンドエンジニア",
-      "summary": "語学学習プラットフォーム。",
+      "summary": "数百万人のユーザーを持つ語学学習サービス。",
       "highlights": [
-        "新デザインに合わせて Web サイトのトップページをピクセルパーフェクトで再構築。",
-        "新デザインシステム用の UI キットを独立した npm パッケージとして作成（Ant Design + TypeScript）。",
-        "サイト内の学習ゲームを保守し、相互コードレビューと新しいアプリアーキテクチャの設計に参加。"
+        "サイトの入り口であるトップページを新デザインどおりピクセルパーフェクトに作り直し。",
+        "新デザインシステムの UI キットを独立した npm パッケージとして作成（Ant Design + TypeScript）。",
+        "新しいアプリアーキテクチャ（Next.js + MobX）の設計に参加し、クロスコードレビューとサイト内学習ゲームの保守を担当。"
       ]
     },
     {
       "company": "I-Tech Labs",
       "role": "フロントエンドエンジニア",
       "location": "ヴォルゴグラード",
-      "summary": "受託開発・客先常駐：顧客向けの React / React Native アプリを、新機能開発から全面的な保守まで担当。",
+      "summary": "アウトソーシング／アウトスタッフィング：1 年間で 8 件のクライアント案件に参加（React Native アプリ 3 件、Web アプリ 5 件）。",
       "highlights": [
-        "分析アプリ（React Native）：SVG チャート（円グラフ、棒グラフ、折れ線グラフ、ガントチャート）と地図（Mapbox、OpenStreetMap）を実装。メモ化とクラスコンポーネントから Hooks への移行で高速化。",
-        "「人狼」風のマルチプレイヤーゲームをゼロから開発：アーキテクチャ設計、ドラッグ＆ドロップのアニメーション、REST による MVP から WebSocket への移行。",
-        "ホテル宿泊客向けアプリ（React Native、Redux）：新画面の実装とバグ修正。",
-        "Web：教育プラットフォーム（Redux を導入）、Postman のような API テストツール、ホテル向け CRM、文書管理サイト、航空機保険サイト。"
+        "マフィア（人狼）風のマルチプレイヤーゲームを一貫して開発：アーキテクチャ、ドラッグ＆ドロップのアニメーション、REST による MVP、その後リアルタイム対戦のため WebSocket へ移行。",
+        "分析アプリ（React Native）：SVG チャート（円・棒・折れ線・ガント）と地図（Mapbox、OpenStreetMap）。メモ化とクラスコンポーネントから Hooks への移行で高速化。",
+        "教育プラットフォームに Redux を導入してリファクタリング。文書管理システムに TypeScript の型付けを追加。",
+        "その他：ホテル宿泊者向けアプリ（React Native）、Postman に似た API テストツール、ホテル CRM、航空機保険の Web サイト。"
       ]
     }
   ],

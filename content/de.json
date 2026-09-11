@@ -32,35 +32,35 @@
   "profile": {
     "name": "Ivan Bogomolov",
     "location": "Da Nang, Vietnam · offen für Remote, Hybrid und Umzug",
-    "summary": "Frontend-Entwickler mit über 5 Jahren Erfahrung in der Entwicklung mobiler und Web-Apps mit React Native, React und TypeScript. Ich habe Versicherungs-Apps mit über 50.000 Nutzern im App Store, bei Google Play, AppGallery und RuStore veröffentlicht, eine Legacy-Codebasis von React Native 0.64 auf 0.77 mit der New Architecture migriert (30–35 % schnellerer Kaltstart, FPS von 45 auf 57+, über 99,95 % absturzfreie Sitzungen) und native Module für Zahlungen geschrieben. Aktuell entwickle ich IoT-Produkte."
+    "summary": "Frontend-Entwickler mit über 5 Jahren Erfahrung darin, mobile und Web-Produkte mit React Native, React und TypeScript auszuliefern. Ich betreue Versicherungs-Apps mit über 50.000 Nutzern in 4 App-Stores, habe sie über 13 React-Native-Versionen hinweg auf 0.77 und die New Architecture gebracht — 30–35 % schnellerer Kaltstart, FPS von 45 auf 57+, über 99,95 % absturzfreie Sitzungen — und native Zahlungsmodule entwickelt. In meinem aktuellen Vertrag habe ich zwei IoT-Apps in 6 Monaten vom leeren Repository auf ~70 Screens gebracht."
   },
   "experience": [
     {
       "company": "AJProTech (auf Vertragsbasis)",
       "role": "React Native Developer",
-      "summary": "Zwei mobile Apps für vernetzte Geräte, von Grund auf entwickelt: eine Companion-App für smarte Kameras und eine Bluetooth-Tracker-App für Sportausrüstung.",
+      "summary": "Zwei mobile Apps für vernetzte Geräte, als Hauptentwickler von Grund auf entwickelt: eine Companion-App für smarte Kameras und eine Bluetooth-Tracker-App für Sportausrüstung.",
       "highlights": [
-        "Beide Apps ab dem ersten Commit mit Bare React Native (0.84+, New Architecture) und TypeScript entwickelt.",
-        "Geräte-Onboarding und Kopplung über Bluetooth LE und WLAN mit einer Verbindungserfolgsquote von bis zu 95 %; Live-Video und Geräteereignisse in Echtzeit über Server-Sent Events.",
-        "Geolokalisierung, Karten und Hintergrund-Tracking von BLE-Tags.",
-        "Push-Benachrichtigungen (Firebase Cloud Messaging), Anmeldung mit Apple / Google und per Einmalcode.",
-        "Architektur nach Feature-Sliced Design; UI-Kit auf Tamagui nach Figma-Entwürfen, dokumentiert in Storybook; State mit Zustand + MMKV.",
-        "KI-gestützte Entwicklung mit Claude Code."
+        "Beide Apps in 6 Monaten vom leeren Repository auf ~70 Screens gebracht (250+ Commits) — mit Bare React Native 0.84+, New Architecture und TypeScript.",
+        "Feature-Sliced-Architektur und UI-Kit auf Tamagui entworfen (~40 Komponenten nach Figma-Entwürfen); die zweite App baut auf demselben Fundament auf.",
+        "Geräte-Onboarding und Kopplung über Bluetooth LE und WLAN, Verbindungserfolgsquote auf 95 % gesteigert: BLE-Nachrichtenformat gemeinsam mit dem Firmware-Team definiert und den Integrationsleitfaden für sie geschrieben.",
+        "Live-Video und Geräteereignisse in Echtzeit über Server-Sent Events; Push-Benachrichtigungen über Firebase Cloud Messaging.",
+        "Hintergrund-Tracking von BLE-Tags mit Geolokalisierung, Karten und Warnungen bei vergessenen Gegenständen.",
+        "Anmeldung mit Apple / Google und per Einmalcode; State mit Zustand + MMKV; KI-gestützter Workflow mit Claude Code."
       ]
     },
     {
       "role": "React Native / React Developer",
       "location": "Moskau",
-      "summary": "Versicherungsgruppe. Zwei mobile Apps — für Kunden und für Versicherungsagenten (über 50.000 Nutzer) — sowie ein internes CRM.",
+      "summary": "Versicherungsgruppe. Zwei mobile Apps — für Versicherungsnehmer und für Versicherungsagenten, über 50.000 Nutzer — sowie ein internes CRM.",
       "highlights": [
-        "Beide Apps von React Native 0.64 auf 0.77 aktualisiert und die New Architecture (Fabric, TurboModules) aktiviert: 30–35 % schnellerer Kaltstart, über 30 % schnelleres Rendering von Listen und UI, bis zu 50× schnellere Aufrufe nativer Module.",
-        "Zahlungen über SBP (russisches Schnellzahlungssystem) mit einem eigenen nativen Modul für Android und iOS umgesetzt.",
-        "Echtzeit-Chat über WebSocket, Push-Benachrichtigungen und biometrischen Login (Face ID / Touch ID) implementiert.",
-        "In-App-Updates ohne Drittanbieter-Bibliotheken entwickelt — mehr Nutzer auf der neuesten Version, schnellere Verbreitung neuer Releases.",
-        "Apps im App Store / TestFlight, bei Google Play, AppGallery und RuStore veröffentlicht; Abstürze mit Sentry überwacht und behoben — über 99,95 % absturzfreie Sitzungen.",
+        "Beide Apps über 13 React-Native-Versionen hinweg von 0.64 auf 0.77 gebracht und auf die New Architecture (Fabric, TurboModules) umgestellt: 30–35 % schnellerer Kaltstart, über 30 % schnelleres Rendering von Listen und UI, bis zu 50× schnellere Aufrufe nativer Module.",
+        "Zahlungen über SBP (russisches Schnellzahlungssystem) mit einem eigenen nativen Modul für Android und iOS eingeführt — ein neuer Zahlungskanal in der App.",
+        "In-App-Update-Flow ohne Drittanbieter-Bibliotheken entwickelt: Nutzer wechseln zur neuen Version, ohne die App zu verlassen — mehr Nutzer auf der neuesten Version, schnellere Verbreitung neuer Releases.",
+        "Echtzeit-Chat über WebSocket, Push-Benachrichtigungen und biometrischen Login (Face ID / Touch ID) ausgeliefert.",
+        "Releases in 4 Stores — App Store, Google Play, AppGallery und RuStore; Produktionsabstürze mit Sentry verfolgt und behoben — über 99,95 % absturzfreie Sitzungen.",
         "Performance optimiert: FPS von 45 auf 57+ gesteigert.",
-        "Legacy-Code auf Redux Toolkit + RTK Query + TypeScript und Feature-Sliced Design umgestellt.",
-        "React: internes CRM, Produktmetriken, Nutzeranalysen und Hypothesentests."
+        "Legacy-Module auf Redux Toolkit + RTK Query + TypeScript mit Feature-Sliced Design neu geschrieben.",
+        "React: internes CRM, Produktmetriken und Nutzeranalysen zur Validierung von Produkthypothesen."
       ]
     },
     {
@@ -69,30 +69,30 @@
       "location": "Moskau",
       "summary": "Enterprise-Produkt für interne Nutzer der Bank.",
       "highlights": [
-        "App-Architektur auf Basis von React + Redux Toolkit + TypeScript entworfen.",
-        "Mit der GraphQL-API über Apollo Client gearbeitet.",
-        "Performance und Cross-Browser-Kompatibilität verbessert."
+        "Features auf einer Architektur mit React + Redux Toolkit + TypeScript entwickelt.",
+        "GraphQL-API über Apollo Client angebunden.",
+        "Rendering-Performance optimiert und Cross-Browser-Probleme behoben."
       ]
     },
     {
       "role": "Frontend Developer",
-      "summary": "Plattform zum Sprachenlernen.",
+      "summary": "Sprachlernservice mit Millionen von Nutzern.",
       "highlights": [
-        "Startseite der Website pixelgenau nach dem neuen Design neu umgesetzt.",
-        "UI-Kit für das neue Designsystem als separates npm-Paket erstellt (Ant Design + TypeScript).",
-        "Lernspiele auf der Website betreut; an Cross-Code-Reviews und dem Entwurf der neuen App-Architektur beteiligt."
+        "Startseite — den Einstiegspunkt der Website — pixelgenau nach dem neuen Design neu umgesetzt.",
+        "UI-Kit des neuen Designsystems als eigenständiges npm-Paket erstellt (Ant Design + TypeScript).",
+        "An der neuen App-Architektur (Next.js + MobX) mitgewirkt, Cross-Code-Reviews durchgeführt und die Lernspiele auf der Website betreut."
       ]
     },
     {
       "company": "I-Tech Labs",
       "role": "Frontend Developer",
       "location": "Wolgograd",
-      "summary": "Outsourcing und Outstaffing: React- und React-Native-Apps für Kunden, von neuen Features bis zum vollständigen Support.",
+      "summary": "Outsourcing und Outstaffing: 8 Kundenprojekte in einem Jahr — 3 React-Native-Apps und 5 Web-Apps.",
       "highlights": [
+        "Mafia-ähnliches Multiplayer-Spiel komplett entwickelt: Architektur, Drag-and-Drop-Animationen, MVP auf REST, danach Umstieg auf WebSockets für Echtzeit-Gameplay.",
         "Analyse-App (React Native): SVG-Diagramme (Kreis-, Balken-, Linien-, Gantt-Diagramme) und Karten (Mapbox, OpenStreetMap); beschleunigt durch Memoization und die Umstellung von Klassenkomponenten auf Hooks.",
-        "Mafia-ähnliches Multiplayer-Spiel von Grund auf entwickelt: Architektur, Drag-and-Drop-Animationen, MVP auf REST, später auf WebSockets umgestellt.",
-        "Gäste-App für Hotels (React Native, Redux): neue Screens und Bugfixes.",
-        "Web: Bildungsplattform (Redux eingeführt), API-Testtool ähnlich Postman, Hotel-CRM, Websites für Dokumentenmanagement und Flugzeugversicherung."
+        "Redux in eine Bildungsplattform eingeführt und sie refaktoriert; TypeScript-Typisierung für ein Dokumentenmanagementsystem ergänzt.",
+        "Außerdem: Gäste-App für Hotels (React Native), API-Testtool ähnlich Postman, Hotel-CRM und eine Website für Flugzeugversicherungen."
       ]
     }
   ],
